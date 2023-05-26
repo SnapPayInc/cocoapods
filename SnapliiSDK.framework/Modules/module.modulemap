@@ -1,0 +1,11 @@
+framework module SnapliiSDK {
+  umbrella header "SnapliiSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SnapliiSDK.Swift {
+  header "SnapliiSDK-Swift.h"
+  requires objc
+}
