@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  # spec.exclude_files = "Classes/Exclude"
+  spec.swift_versions = ['5.5.2']
+  spec.vendored_frameworks = "SnapliiSDK.framework"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -105,24 +105,8 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  spec.requires_arc = true
-  spec.swift_version = '5.0'
-  spec.resource = 'SnapliiSDK.framework/Image.bundle'
-  spec.ios.vendored_frameworks = 'SnapliiSDK.framework'
-  spec.frameworks = 'UIKit','Foundation'
-
-
- # spec.dependency "AFNetworking"
- # spec.dependency "Masonry"
- # spec.dependency "MJExtension"
- # spec.dependency "MBProgressHUD"
- #  spec.dependency "YYCache"
-  spec.dependency "AcuantiOSSDKV11/AcuantCamera",'~> 11.5.8'
-  spec.dependency "AcuantiOSSDKV11/AcuantFaceCapture",'~> 11.5.8'
-  spec.dependency "AcuantiOSSDKV11/AcuantHGLiveness",'~> 11.5.8'
-
-
-  # spec.resources = "Resources/*.png"
+  # spec.resource  = "icon.png"
+  # spec.resources = "SnapliiSDK/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -149,6 +133,13 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
 
+  spec.dependency "AFNetworking"
+  spec.dependency "Masonry"
+  spec.dependency "MJExtension"
+  spec.dependency "MBProgressHUD"
+  spec.dependency "YYCache"
+  spec.dependency "AcuantiOSSDKV11/AcuantCamera", '~> 11.5.8'
+  spec.dependency "AcuantiOSSDKV11/AcuantFaceCapture", '~> 11.5.8'
+  spec.dependency "AcuantiOSSDKV11/AcuantHGLiveness", '~> 11.5.8'
 end
