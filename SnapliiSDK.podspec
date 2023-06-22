@@ -93,6 +93,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_versions = ['5.5.2']
   spec.vendored_frameworks = "SnapliiSDK.framework"
+  spec.resource = 'Resource.bundle'
 
   # spec.public_header_files = "Classes/**/*.h"
 

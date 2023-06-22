@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		k2+0nVnvuBLYEEVahnzPXep0JTo=
+		</data>
 		<key>Headers/SnapliiSDK-Swift.h</key>
 		<data>
 		Q+tNRHKwRV45px/oZv2OxkRQ7aU=
@@ -15,138 +19,6 @@
 		<key>Headers/SnapliiSDKManager.h</key>
 		<data>
 		oseQbsf00ogKkdnR14VlOEqEhMg=
-		</data>
-		<key>Image.bundle/BasicCheckbox.png</key>
-		<data>
-		30p8DrKYD4WZU4BbKxAmX2Vm2rY=
-		</data>
-		<key>Image.bundle/CloseImageErrorLogo.png</key>
-		<data>
-		jzW0o/2lsMBBsuwv8ogp18NTwzQ=
-		</data>
-		<key>Image.bundle/ClosePopUpViewLogo.png</key>
-		<data>
-		aUw28bP+acvPqaWiI5thsJKBxWQ=
-		</data>
-		<key>Image.bundle/CompleteAutoPayLogoError.png</key>
-		<data>
-		CTmgh/XEIpRknGtC8YHHba6CNkY=
-		</data>
-		<key>Image.bundle/ExplainImageView1.png</key>
-		<data>
-		2cnOva/cyHQiG8hTiZb2W8dMgm4=
-		</data>
-		<key>Image.bundle/InputEmailLogo.png</key>
-		<data>
-		w+l1cecdF+eFTaPDlHtXVcNzT5Q=
-		</data>
-		<key>Image.bundle/InputPhoneNumLogo.png</key>
-		<data>
-		VPiAf1uPFVEKbiy44UIlGjTHx08=
-		</data>
-		<key>Image.bundle/SelectedAgreementBtn.png</key>
-		<data>
-		uiWsZ/2BA7XvxYFJpscFWUAb0UE=
-		</data>
-		<key>Image.bundle/TakeBackPictureBgEN.png</key>
-		<data>
-		0gvj+Qs0IuBWl67mfuiW9V0Urnk=
-		</data>
-		<key>Image.bundle/TakeBackPictureBgZH.png</key>
-		<data>
-		HEMYq8mXVs2Ylju+j49tSW5uPaU=
-		</data>
-		<key>Image.bundle/TakeFrontPictureBgEN.png</key>
-		<data>
-		AGHFqVtwJ5no1l1xQwjmOpWUHQk=
-		</data>
-		<key>Image.bundle/TakeFrontPictureBgZH.png</key>
-		<data>
-		3ly6o+WOjB8ImEWMewnWRUIOfoo=
-		</data>
-		<key>Image.bundle/TakeSelfiePictureBgEN.png</key>
-		<data>
-		LvXtw6AfUnuNkYQInBMtW2X+OVA=
-		</data>
-		<key>Image.bundle/TakeSelfiePictureBgZH.png</key>
-		<data>
-		Y3c45U9CZxoy1CoCNdNsHIgz/ro=
-		</data>
-		<key>Image.bundle/applyFailTitleLogo.png</key>
-		<data>
-		xABpSgCiVZ501s5ZVEUN8lXIiu8=
-		</data>
-		<key>Image.bundle/applyReviewTitleLogoo.png</key>
-		<data>
-		sHXKxecMhLGCpwk1c2s8Q7X4RYg=
-		</data>
-		<key>Image.bundle/applySuccessTitleLogo.png</key>
-		<data>
-		HNwu8xF9HdnpL9ztUl0xxHT0JVA=
-		</data>
-		<key>Image.bundle/fcacLogoImg.png</key>
-		<data>
-		2cnOva/cyHQiG8hTiZb2W8dMgm4=
-		</data>
-		<key>Image.bundle/howtakepicturelogo.png</key>
-		<data>
-		Mw74ohbJK7D1G5pe7LK1pbhg6TA=
-		</data>
-		<key>Image.bundle/leftBack.png</key>
-		<data>
-		lNKhh9izw0QO73HmDm3JBEFqu/Q=
-		</data>
-		<key>Image.bundle/policyProtectLogo1.png</key>
-		<data>
-		Xsd3YZNP0GzQJ9O1eKX8Uk/fcv0=
-		</data>
-		<key>Image.bundle/project.pbxproj</key>
-		<data>
-		b9jARk+zaGsCU8VqxSzkHe86KcI=
-		</data>
-		<key>Image.bundle/project.xcworkspace/contents.xcworkspacedata</key>
-		<data>
-		hCQ4SPVLDFmD4e0m3vtB0mLOE1Q=
-		</data>
-		<key>Image.bundle/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist</key>
-		<data>
-		31/nObizq2nPGjKoiBxIoWYuA0A=
-		</data>
-		<key>Image.bundle/project.xcworkspace/xcuserdata/eric.xcuserdatad/UserInterfaceState.xcuserstate</key>
-		<data>
-		K8EJkmeh9ZU0KZh+34Hc0oqWBeI=
-		</data>
-		<key>Image.bundle/runloopexplainen1.png</key>
-		<data>
-		PUPsrudrOlWU/pdMDOkS1UVIFL4=
-		</data>
-		<key>Image.bundle/runloopexplainen2.png</key>
-		<data>
-		4yjeuxAmlIRNftLMrmjL8o6KlTg=
-		</data>
-		<key>Image.bundle/runloopexplainen3.png</key>
-		<data>
-		YHn8A14esHtzSznyuR2TZFkQeYY=
-		</data>
-		<key>Image.bundle/runloopexplainzh1.png</key>
-		<data>
-		O4K1OHlHnvJSvT3UaO0gYl5/k9I=
-		</data>
-		<key>Image.bundle/runloopexplainzh2.png</key>
-		<data>
-		S/FPtMXpNMxZpFHpWs1WVU0Hd+s=
-		</data>
-		<key>Image.bundle/runloopexplainzh3.png</key>
-		<data>
-		8MMxrqKv4KJkR5gbLN4lzi43mVY=
-		</data>
-		<key>Image.bundle/successLogoImg.png</key>
-		<data>
-		R3S52xAguelzOBfGksiLn9g79pQ=
-		</data>
-		<key>Image.bundle/xcuserdata/eric.xcuserdatad/xcschemes/xcschememanagement.plist</key>
-		<data>
-		dULV1Q8OfxyErLaIZmTSkheTlkU=
 		</data>
 		<key>ImageResource.bundle/BasicCheckbox.png</key>
 		<data>
@@ -286,11 +158,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BfVPT1ayAI/ZIPYXTewWneYJW3Q=
+		eB9V8YV4f86zHhOjG6qJ+pBt/js=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		ImeiatM3gtw0gZipr/1eknXLa+Q=
+		pPCUeXGVvQoQxVCb3FDnyIV7e/w=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -298,11 +170,11 @@
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		k02t7q8IsaB6AL3/8C6wCkNTUUQ=
+		nNRW/MVV5H1Zvqs6/vql2tIq41U=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		bDASgT8lnukEcoP9a2FnZz+Bubc=
+		L1/IQSKbyyETXZIcVz8zD7UE9hg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -342,369 +214,6 @@
 			<key>hash2</key>
 			<data>
 			KWTGYcE36DGF/FQECgvB3Q8XLBCYK9GMr4b9aNaeJng=
-			</data>
-		</dict>
-		<key>Image.bundle/BasicCheckbox.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			30p8DrKYD4WZU4BbKxAmX2Vm2rY=
-			</data>
-			<key>hash2</key>
-			<data>
-			GcUFYEb822XG1Iq75VWkv39uiG5rq7gxml7gSmPQjPI=
-			</data>
-		</dict>
-		<key>Image.bundle/CloseImageErrorLogo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jzW0o/2lsMBBsuwv8ogp18NTwzQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			GwkEgWcsEOUkHJXVSE7qMKAFShONHk+W2dQbG9CixoQ=
-			</data>
-		</dict>
-		<key>Image.bundle/ClosePopUpViewLogo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aUw28bP+acvPqaWiI5thsJKBxWQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			yIKBVPFKZdawRdNashDxkiNF8Y1e/eT0M/Z0FMyu5pQ=
-			</data>
-		</dict>
-		<key>Image.bundle/CompleteAutoPayLogoError.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CTmgh/XEIpRknGtC8YHHba6CNkY=
-			</data>
-			<key>hash2</key>
-			<data>
-			t7sxXGrfo61M1QSqNQTk6ppt2F+ZbhygjP03ac+aazY=
-			</data>
-		</dict>
-		<key>Image.bundle/ExplainImageView1.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2cnOva/cyHQiG8hTiZb2W8dMgm4=
-			</data>
-			<key>hash2</key>
-			<data>
-			X5vy8By246DTYmxSoPx1X92YIN6+NYCzucCM64XwLMg=
-			</data>
-		</dict>
-		<key>Image.bundle/InputEmailLogo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w+l1cecdF+eFTaPDlHtXVcNzT5Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			NM62KRE3bB8W0kEfgXV7mCqd0VrGmzXQrzSzGnTFaqk=
-			</data>
-		</dict>
-		<key>Image.bundle/InputPhoneNumLogo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VPiAf1uPFVEKbiy44UIlGjTHx08=
-			</data>
-			<key>hash2</key>
-			<data>
-			sLChFfaQJ7ts1pzRCOzkIJzKPZYKLWtgKi12HXHmt4o=
-			</data>
-		</dict>
-		<key>Image.bundle/SelectedAgreementBtn.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uiWsZ/2BA7XvxYFJpscFWUAb0UE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Lo1YqfpK5RG41Rvwpp36YHOB8vz+dKBVRS7SG6ce3PE=
-			</data>
-		</dict>
-		<key>Image.bundle/TakeBackPictureBgEN.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0gvj+Qs0IuBWl67mfuiW9V0Urnk=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q5ZKy3N51AiZV0rxz6iFAUjcMzmRa3B05rBF0IGlidE=
-			</data>
-		</dict>
-		<key>Image.bundle/TakeBackPictureBgZH.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HEMYq8mXVs2Ylju+j49tSW5uPaU=
-			</data>
-			<key>hash2</key>
-			<data>
-			ManEKtpTb9c4+HJYg88wJAPnbWk+pJv6INBSi3MLfqI=
-			</data>
-		</dict>
-		<key>Image.bundle/TakeFrontPictureBgEN.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AGHFqVtwJ5no1l1xQwjmOpWUHQk=
-			</data>
-			<key>hash2</key>
-			<data>
-			QRvz1QGqP8GPqfm2fatCESNgzouexLZJFu8oGSZgY4s=
-			</data>
-		</dict>
-		<key>Image.bundle/TakeFrontPictureBgZH.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3ly6o+WOjB8ImEWMewnWRUIOfoo=
-			</data>
-			<key>hash2</key>
-			<data>
-			+FrEDIgga1pBe/VwkROC6WbEWAWWVH02NAcdL8irFmA=
-			</data>
-		</dict>
-		<key>Image.bundle/TakeSelfiePictureBgEN.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LvXtw6AfUnuNkYQInBMtW2X+OVA=
-			</data>
-			<key>hash2</key>
-			<data>
-			7jCV8BuTuchaBLZEEEDbRMXaljFE33TRHESzT+TSJ68=
-			</data>
-		</dict>
-		<key>Image.bundle/TakeSelfiePictureBgZH.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Y3c45U9CZxoy1CoCNdNsHIgz/ro=
-			</data>
-			<key>hash2</key>
-			<data>
-			JqTyhdXJu68AjKycu1muJVwT7Q4YMBQX1MPt8DQzbR8=
-			</data>
-		</dict>
-		<key>Image.bundle/applyFailTitleLogo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xABpSgCiVZ501s5ZVEUN8lXIiu8=
-			</data>
-			<key>hash2</key>
-			<data>
-			S3eyipKjcbnLjW/snZvk1+fr9mIdcSG6Xa3T7ka2aB0=
-			</data>
-		</dict>
-		<key>Image.bundle/applyReviewTitleLogoo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sHXKxecMhLGCpwk1c2s8Q7X4RYg=
-			</data>
-			<key>hash2</key>
-			<data>
-			1BHyJhWFLr2ZW/pCrB+wXAPOWWBOeEb+LXGCpidWoYo=
-			</data>
-		</dict>
-		<key>Image.bundle/applySuccessTitleLogo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HNwu8xF9HdnpL9ztUl0xxHT0JVA=
-			</data>
-			<key>hash2</key>
-			<data>
-			LF3VH4hLrGEMnI69tEV1g+693YUBz+TbcudeRvA9dS4=
-			</data>
-		</dict>
-		<key>Image.bundle/fcacLogoImg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2cnOva/cyHQiG8hTiZb2W8dMgm4=
-			</data>
-			<key>hash2</key>
-			<data>
-			X5vy8By246DTYmxSoPx1X92YIN6+NYCzucCM64XwLMg=
-			</data>
-		</dict>
-		<key>Image.bundle/howtakepicturelogo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Mw74ohbJK7D1G5pe7LK1pbhg6TA=
-			</data>
-			<key>hash2</key>
-			<data>
-			8vretNqoChn1k6LFdbCyRYEc5laj27CjkA1kZLKt76k=
-			</data>
-		</dict>
-		<key>Image.bundle/leftBack.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lNKhh9izw0QO73HmDm3JBEFqu/Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			Uo12stZSRMgUWDtlyLKDpptjuBau1VOiLrMKzy86f1o=
-			</data>
-		</dict>
-		<key>Image.bundle/policyProtectLogo1.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xsd3YZNP0GzQJ9O1eKX8Uk/fcv0=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ly+hsuNxQdGEhb9G9cFEFF7bWDTlwF9dPojnBht5qVA=
-			</data>
-		</dict>
-		<key>Image.bundle/project.pbxproj</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			b9jARk+zaGsCU8VqxSzkHe86KcI=
-			</data>
-			<key>hash2</key>
-			<data>
-			Uf4nukbYV5FBUuo9qiD65J7U56uamD71G5PU/s57/Nw=
-			</data>
-		</dict>
-		<key>Image.bundle/project.xcworkspace/contents.xcworkspacedata</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hCQ4SPVLDFmD4e0m3vtB0mLOE1Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			fzsAtcP9tFJC17h+HlxOJdH6gSmhbJQpXsxOjqIjXF8=
-			</data>
-		</dict>
-		<key>Image.bundle/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			31/nObizq2nPGjKoiBxIoWYuA0A=
-			</data>
-			<key>hash2</key>
-			<data>
-			36D5u4W5XMupxoEa2t+MtAf7XVIIjonbg+vDCOxEhUI=
-			</data>
-		</dict>
-		<key>Image.bundle/project.xcworkspace/xcuserdata/eric.xcuserdatad/UserInterfaceState.xcuserstate</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			K8EJkmeh9ZU0KZh+34Hc0oqWBeI=
-			</data>
-			<key>hash2</key>
-			<data>
-			qWY2ypG9cTZjNghqoDlq2U97fNsZiePRBnKUuzv0edM=
-			</data>
-		</dict>
-		<key>Image.bundle/runloopexplainen1.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PUPsrudrOlWU/pdMDOkS1UVIFL4=
-			</data>
-			<key>hash2</key>
-			<data>
-			rRb6v/33K3bsNRIuAWk5DbGccZCPzWPixhpGdTWPC1Y=
-			</data>
-		</dict>
-		<key>Image.bundle/runloopexplainen2.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4yjeuxAmlIRNftLMrmjL8o6KlTg=
-			</data>
-			<key>hash2</key>
-			<data>
-			HXavfNGmXEJny6ekpXdhbbMnkIvulSiHMZ8+hFirKo4=
-			</data>
-		</dict>
-		<key>Image.bundle/runloopexplainen3.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YHn8A14esHtzSznyuR2TZFkQeYY=
-			</data>
-			<key>hash2</key>
-			<data>
-			tACVc3Q8JKoHn1b49TIRZ2Cwd9iLsXPcxjlURuj7GSA=
-			</data>
-		</dict>
-		<key>Image.bundle/runloopexplainzh1.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			O4K1OHlHnvJSvT3UaO0gYl5/k9I=
-			</data>
-			<key>hash2</key>
-			<data>
-			uV6546nPzZP0hSs50wpXIzAq0rUwleGaMEGQ8K2O4s4=
-			</data>
-		</dict>
-		<key>Image.bundle/runloopexplainzh2.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			S/FPtMXpNMxZpFHpWs1WVU0Hd+s=
-			</data>
-			<key>hash2</key>
-			<data>
-			mkGk9wtgeuxn9rHchmF3UPgJhbrXOee8QE3xVWlJfTI=
-			</data>
-		</dict>
-		<key>Image.bundle/runloopexplainzh3.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8MMxrqKv4KJkR5gbLN4lzi43mVY=
-			</data>
-			<key>hash2</key>
-			<data>
-			JB1p7MnYCwNWkB9z9Sxdn2tpeuzXueUXDs1jvKT4hYM=
-			</data>
-		</dict>
-		<key>Image.bundle/successLogoImg.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R3S52xAguelzOBfGksiLn9g79pQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			VNMNz6WJ9PuhwyNNEHeN0BVlQS8+N4d9VwCY6oO0W28=
-			</data>
-		</dict>
-		<key>Image.bundle/xcuserdata/eric.xcuserdatad/xcschemes/xcschememanagement.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dULV1Q8OfxyErLaIZmTSkheTlkU=
-			</data>
-			<key>hash2</key>
-			<data>
-			oOSP8XDzuMeucDnpU9QuOQO/eefDXdojD/OqSstIp2Y=
 			</data>
 		</dict>
 		<key>ImageResource.bundle/BasicCheckbox.png</key>
@@ -1085,11 +594,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ImeiatM3gtw0gZipr/1eknXLa+Q=
+			pPCUeXGVvQoQxVCb3FDnyIV7e/w=
 			</data>
 			<key>hash2</key>
 			<data>
-			IqWpk2DgAQpjov5bYwF6i6dWGGfHhOb9+kkKnVA38jQ=
+			A7i0ZUjNbTivgS23gh5amBMZxB9L71fYjl/f4sprjXY=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -1107,22 +616,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k02t7q8IsaB6AL3/8C6wCkNTUUQ=
+			nNRW/MVV5H1Zvqs6/vql2tIq41U=
 			</data>
 			<key>hash2</key>
 			<data>
-			XaIC/PqOa3NrDCfWzrempIN3pzViLHKOLToNLIu1L8g=
+			L4k6ti7973sY2uzW2JpgKDYBA364e94pZwR1EjRzMMk=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bDASgT8lnukEcoP9a2FnZz+Bubc=
+			L1/IQSKbyyETXZIcVz8zD7UE9hg=
 			</data>
 			<key>hash2</key>
 			<data>
-			mc/hxnJDWjEnrdwo4pOPE+94Fk3BY0SBZl5IFfSFgV4=
+			RJQoH65BHZ4abAf9qqOtHboTwvUqsYKQdUZ7eN5uDbw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
