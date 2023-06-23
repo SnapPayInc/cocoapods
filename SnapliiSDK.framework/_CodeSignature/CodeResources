@@ -26,15 +26,23 @@
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		Qou3jFYQdeToRNNALqn8wW6QLOQ=
+		</data>
+		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		vB2CD9GwfpmJlUD45SAIeDv5BNI=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		mcP/kcbgUK1q8YTXCkLrrq1iXCU=
 		</data>
+		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		vB2CD9GwfpmJlUD45SAIeDv5BNI=
+		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		sVLKeuVaNazaRcQe63R9asJY5n0=
+		5LlZWS/N4Qhl78i18QY3ry9NITc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -227,11 +235,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			Qou3jFYQdeToRNNALqn8wW6QLOQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			80KDgoTZ33risNmzueAcbnZ8Y+qZyqcajJ0ub2Yvkrc=
+			</data>
+		</dict>
+		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vB2CD9GwfpmJlUD45SAIeDv5BNI=
+			</data>
+			<key>hash2</key>
+			<data>
+			krC3VnarNx2Y0rx8EEF2UTdr5MJI8IZn4EELJoIlZlM=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -245,15 +264,26 @@
 			yXhCwNYEZ4AuBV2eRSK7kWEMago3o5ZFe5SYjJe5QNg=
 			</data>
 		</dict>
+		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vB2CD9GwfpmJlUD45SAIeDv5BNI=
+			</data>
+			<key>hash2</key>
+			<data>
+			krC3VnarNx2Y0rx8EEF2UTdr5MJI8IZn4EELJoIlZlM=
+			</data>
+		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sVLKeuVaNazaRcQe63R9asJY5n0=
+			5LlZWS/N4Qhl78i18QY3ry9NITc=
 			</data>
 			<key>hash2</key>
 			<data>
-			/JeEVskvOiK2aED/SbkDfs8Eru0tGlrc0e6gzeaDUIY=
+			J4UzB23J68JtawgWdlcY/RD6pjGLGHIjgFTjp8awQ0s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
