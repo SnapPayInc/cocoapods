@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SnapliiSDK"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "This is SnapliiSDK."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.swift_versions = ['5.5.2']
-  spec.vendored_frameworks = "SnapliiSDK.framework"
+  spec.vendored_frameworks = "SnapliiSDK.xcframework"
   spec.resource = 'Resource.bundle'
 
   # spec.public_header_files = "Classes/**/*.h"
