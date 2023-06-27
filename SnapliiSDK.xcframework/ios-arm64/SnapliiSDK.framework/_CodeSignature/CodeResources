@@ -52,6 +52,10 @@
 		<data>
 		yfx8P70hEAhLHYQCXeVdFyE24mw=
 		</data>
+		<key>Resource.bundle/CloseAllPageBtn.png</key>
+		<data>
+		OWIO5c7k7yeGDyiXRLQzWQCq0xU=
+		</data>
 		<key>Resource.bundle/CloseImageErrorLogo.png</key>
 		<data>
 		nsA+YXI5ZK8IEHlmWvvcHDeWl8k=
@@ -306,6 +310,17 @@
 			<key>hash2</key>
 			<data>
 			4WoSJszXOQdmxi6iHAj8QNWsR3yRat3rqUb8Jec7Zq4=
+			</data>
+		</dict>
+		<key>Resource.bundle/CloseAllPageBtn.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OWIO5c7k7yeGDyiXRLQzWQCq0xU=
+			</data>
+			<key>hash2</key>
+			<data>
+			pdFo10efH4E8v+gdf0cJhLKB5iJJ69Pmpw5EMsL/92s=
 			</data>
 		</dict>
 		<key>Resource.bundle/CloseImageErrorLogo.png</key>
