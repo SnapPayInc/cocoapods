@@ -1452,49 +1452,49 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/tony\/Documents\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeSelfiePicture\/Controller\/FaceLivenessCameraController.swift",
+      "filePath": "\/Users\/tony\/Downloads\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeSelfiePicture\/Controller\/FaceLivenessCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 592,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tony\/Documents\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeSelfiePicture\/Controller\/FaceLivenessCameraController.swift",
+      "filePath": "\/Users\/tony\/Downloads\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeSelfiePicture\/Controller\/FaceLivenessCameraController.swift",
       "kind": "FloatLiteral",
       "offset": 860,
       "length": 4,
       "value": "-1.0"
     },
     {
-      "filePath": "\/Users\/tony\/Documents\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeSelfiePicture\/Controller\/FaceLivenessCameraController.swift",
+      "filePath": "\/Users\/tony\/Downloads\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeSelfiePicture\/Controller\/FaceLivenessCameraController.swift",
       "kind": "FloatLiteral",
       "offset": 898,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/tony\/Documents\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeSelfiePicture\/Controller\/FaceLivenessCameraController.swift",
+      "filePath": "\/Users\/tony\/Downloads\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeSelfiePicture\/Controller\/FaceLivenessCameraController.swift",
       "kind": "IntegerLiteral",
       "offset": 12513,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/tony\/Documents\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/View\/AcuantProgressView.swift",
+      "filePath": "\/Users\/tony\/Downloads\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/View\/AcuantProgressView.swift",
       "kind": "BooleanLiteral",
       "offset": 276,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tony\/Documents\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/View\/AcuantProgressView.swift",
+      "filePath": "\/Users\/tony\/Downloads\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/View\/AcuantProgressView.swift",
       "kind": "FloatLiteral",
       "offset": 3531,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/tony\/Documents\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/View\/AcuantProgressView.swift",
+      "filePath": "\/Users\/tony\/Downloads\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/View\/AcuantProgressView.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 18,
