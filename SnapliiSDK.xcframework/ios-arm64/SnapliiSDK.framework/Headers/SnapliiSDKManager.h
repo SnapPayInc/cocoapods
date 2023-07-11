@@ -33,6 +33,9 @@ typedef void (^GetOTPBlock)(id responseData);
 //配置语言
 - (void)setLanguage:(NSString *)language;
 
+//清除token
+- (void)logoutSnapliiSDKInfo;
+
 //支付
 - (void)payment:(NSString *)paymentSign orderAmount:(NSString *)orderAmount outterOrderNo:(NSString *)outterOrderNo CurrentController:(UIViewController *)currentController callback:(void(^)(NSString *))callback;
 
