@@ -135,11 +135,11 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-  spec.dependency "AFNetworking"
-  spec.dependency "Masonry"
-  spec.dependency "MJExtension"
-  spec.dependency "MBProgressHUD"
-  spec.dependency "YYCache"
+  spec.dependency 'AFNetworking', '~> 4.0.1'
+  spec.dependency 'Masonry', '~> 1.1.0'
+  spec.dependency 'MJExtension', '~> 3.4.1'
+  spec.dependency 'MBProgressHUD', '~> 1.2.0'
+  spec.dependency 'YYCache', '~> 1.0.4'
   spec.dependency "AcuantiOSSDKV11/AcuantCamera", '~> 11.5.8'
   spec.dependency "AcuantiOSSDKV11/AcuantFaceCapture", '~> 11.5.8'
   spec.dependency "AcuantiOSSDKV11/AcuantHGLiveness", '~> 11.5.8'
