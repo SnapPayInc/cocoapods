@@ -1,0 +1,41 @@
+
+
+"SdkInitError" = "SDK 初始化不正确!";
+"CommonNetworkError" = "网络不稳定，请稍后再试!";
+"PhoneVerifySuccess" = "验证完成";
+
+//
+"Back" = "返回";
+"You have not activated Snaplii Credit" = "您还未开通Snaplii信用付";
+"AlreadyApproved" = "您已经是Snaplii信用付用户了!";
+"OK" = "好的";
+"UnfinishedApplication" = "您有未完成的申请";
+"Try again" = "重试";
+"Oops! Something went wrong." = "出了点问题";
+"You have applied with another phone number" = "您已用其他手机号申请过";
+"Quit" = "退出";
+"Oops! Not approved." = "申请未成功";
+"Could not apply" = "无法申请";
+"Oops! Please try again." = "证件识别未成功";
+"Try again2" = "再试一次";
+"Try again on another day" = "改天再试试吧";
+"Still under review..." = "还在审核中...";
+"SelectPaymentMethod" = "您可以返回付款页面并选择“Snaplii信用付”作为您的支付方式付款。";
+"FindUnfinishedApplication" = "抱歉，我们发现您之前在Snaplii App中存在未完成的申请，请您到Snaplii App中完成之前的申请。\n\n如果您没有Snaplii App，请在应用市场下载。";
+"UnknownError" = "非常抱歉，可能因为网络等问题，您的申请暂未成功。您可以稍后再次尝试，希望您能申请成功！\n\n如有其他问题，欢迎联系Snaplii客服。";
+"Third-party platform" = "抱歉，我们发现您之前在$第三方平台名称$ App中已经使用其他手机号申请过，请您使用之前的手机号继续申请。";
+"NotBeenApproved" = "非常抱歉，您的申请暂未成功。建议您尝试再次申请，并在申请过程中再三确认信息是否准确，希望您申请成功！\n\n如有其他问题，欢迎联系Snaplii客服。";
+"Something went wrong" = "抱歉，目前您暂时无法申请信用付。\n\n请稍后重试或联系Snaplii客服。";
+"DocumentNotPassed" = "非常抱歉，您上传的证件可能因为拍摄不够清晰等原因未通过审核，请您重新拍摄和上传。\n\n为了提高成功率，您也可以尝试使用其他证件来申请。";
+"AppliedTooManyTimes" = "非常抱歉，您今天的申请次数过多，建议您改日再试试。";
+"UnderReview" = "您的申请还在审核中，我们会尽快处理，请您耐心等待。审核成功后我们会给您发邮件，请您保持关注。\n\n如有其他问题，欢迎联系Snaplii客服。";
+"YouCanDownload" = "您可以下载Snaplii App并开通信用付，然后返回付款。";
+"Service email" = "客服邮箱";
+"Available credit" = "您的可用额度";
+"copy" = "复制";
+"FCAC standards" = "Snaplii遵循FCAC监管标准，您的个人信息将会被加密处理和存储。";
+"Successfully copied" = "已为您成功复制，可以在邮件App中使用";
+
+
+"Recognition failed" = "识别失败,请重新拍照!";
+

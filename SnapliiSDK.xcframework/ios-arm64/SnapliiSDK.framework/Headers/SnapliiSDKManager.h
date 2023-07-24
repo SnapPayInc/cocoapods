@@ -10,38 +10,54 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void (^CompletionBlock)(id responseData);
-typedef void (^CallbackBlock)(CompletionBlock responseCallback);
+typedef void (^Callback)(BOOL success, NSString * _Nullable message);
 
+typedef void(^GetOTPBlock)(NSString *otp);
+typedef void(^OTPCallback)(GetOTPBlock getOTPBlock);
 
-typedef void (^GetOTPBlock)(id responseData);
+typedef Callback ApplyResultCallback;
+typedef Callback HasSnapliiCreditCallback;
+typedef Callback PayResultCallback;
+typedef Callback LoginCallback;
+typedef Callback AutoLoginCallback;
 
 @interface SnapliiSDKManager : NSObject
-+(instancetype)defaultService;
+
++ (instancetype)defaultService;
 
 //初始化SDK
--(void)initAppId:(NSString *)appId language:(NSString *)language personalToken:(NSString *)personalToken customerData:(NSString *)customerData Callback:(CallbackBlock)callback;
+- (void)initAppId:(NSString *)appId
+         language:(NSString *)language
+    personalToken:(NSString *)personalToken
+     customerData:(NSString *)customerData
+         callback:(OTPCallback)callback;
 
 //是否开通了Snaplii信用付
-//- (BOOL)hasSnapliiCredit;
-- (void)hasSnapliiCreditCurrentController:(UIViewController *)currentController CheckCreditBlcok:(void(^)(BOOL))block;
+- (void)hasSnapliiCredit:(HasSnapliiCreditCallback)completion;
 
 //注册开通信用付
--(void)initSnapliiCreditCallback:(void(^)(NSString *))callback;
+- (void)initSnapliiCredit:(ApplyResultCallback)callback;
 
 
 //配置语言
 - (void)setLanguage:(NSString *)language;
 
-//清除token
-- (void)logoutSnapliiSDKInfo;
+- (void)login:(UIViewController *)currentController
+     callback:(LoginCallback)callback;
+
+// 清除用户登陆信息
+- (void)logout;
+
+// 是否登陆
+- (BOOL)hasLogin;
 
 //支付
-- (void)payment:(NSString *)paymentSign orderAmount:(NSString *)orderAmount outterOrderNo:(NSString *)outterOrderNo CurrentController:(UIViewController *)currentController callback:(void(^)(NSString *))callback;
+- (void)payment:(NSString *)paymentSign
+    orderAmount:(NSString *)orderAmount
+  outterOrderNo:(NSString *)outterOrderNo
+ viewController:(UIViewController *)viewController
+       callback:(PayResultCallback)callback;
 
-@property (nonatomic, copy)GetOTPBlock block;
-
-@property (nonatomic, copy) NSString *customerData;
 @end
 
 NS_ASSUME_NONNULL_END

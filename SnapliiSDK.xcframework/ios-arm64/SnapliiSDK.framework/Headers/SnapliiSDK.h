@@ -15,5 +15,4 @@ FOUNDATION_EXPORT const unsigned char SnapliiSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SnapliiSDK/PublicHeader.h>
 
-//#import <SnapliiSDK/VerifyUserCellPhoneNumberController.h>
 #import <SnapliiSDK/SnapliiSDKManager.h>

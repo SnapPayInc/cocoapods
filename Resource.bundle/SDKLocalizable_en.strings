@@ -1,0 +1,40 @@
+
+
+"InitError" = "Snaplii Sdk init not correctly";
+"CommonNetworkError" = "The network is unstable. Please try again later!";
+"PhoneVerifySuccess" = "Verify Done.";
+
+// ApplyResultPageController
+"Back" = "Back";
+"You have not activated Snaplii Credit" = "You have not activated Snaplii Credit";
+"AlreadyApproved" = "You’ve already been approved!";
+"OK" = "OK";
+"UnfinishedApplication" = "You have an unfinished application";
+"Try again" = "Try again";
+"Oops! Something went wrong." = "Oops! Something went wrong.";
+"You have applied with another phone number" = "You have applied with another phone number";
+"Quit" = "Quit";
+"Oops! Not approved." = "Oops! Not approved.";
+"Could not apply" = "Could not apply";
+"Oops! Please try again." = "Oops! Please try again.";
+"Try again2" = "Try again";
+"Try again on another day" = "Try again on another day";
+"Still under review..." = "Still under review...";
+"SelectPaymentMethod" = "You can go back to checkout page and select \"Snaplii Credit\" as your payment method.";
+"FindUnfinishedApplication" = "Sorry, we just found that you have an unfinished application in Snaplii App. Please go to Snaplii App to complete the previous application.\n\nIf you haven’t downloaded Snaplii App yet, please get it in the application market.";
+"UnknownError" = "Sorry, your application has not been successful due to the network or something unknown. You could try it later and hope your next application will be successful!\n\nIf you have any questions, please contact Snaplii customer service..";
+"Third-party platform" = "Sorry, we just found that you have an applied for Snaplii Credit in Third-party platform App with another phone number and please continue with that one.";
+"NotBeenApproved" = "Sorry, your application has not been approved yet. It is recommended that you try to apply again, and double check if the information is accurate. Hope your next application will be successful!\n\nIf you have any questions, please contact Snaplii customer service.";
+"Something went wrong" = "Oops! Something went wrong\nwhen you are applying for Snaplii Credit.\n\nPlease try it again or contact the service center.";
+"DocumentNotPassed" = "Sorry, the document you uploaded may not have passed the review due to reasons such as the lack of clarity of the photograph. Please take try again.\n\nIn order to improve the success rate, you can also try to use another document to apply.";
+"AppliedTooManyTimes" = "Sorry, you have applied too many times today. We suggest you try again another day.";
+"UnderReview" = "Your application is still under review, and we will deal with it as soon as possible. Please keep patient! We will send you an email after approval and please keep an eye on it.\n\nIf you have any questions, please contact Snaplii customer service.";
+"YouCanDownload" = "You can download Snaplii App to activate Snaplii Credit and then come back to pay.";
+"Service email" = "Service email";
+"Available credit" = "Available credit";
+"copy" = "copy";
+"FCAC standards" = "Snaplii follows FCAC standards and your information will be encrypted and stored securely.";
+"Successfully copied" = "Successfully copied for you to compose your email!";
+
+// CaptureDocumentController
+"Recognition failed" = "Recognition failed, please take another photo!";
