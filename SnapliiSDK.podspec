@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SnapliiSDK"
-  spec.version      = "0.9.0"
+  spec.version      = "0.0.3"
   spec.summary      = "This is SnapliiSDK."
 
   # This description is used to generate tags and improve search results.
@@ -53,10 +53,8 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "ericem1" => "eric.wang@snappay.ca" }
-  # Or just: spec.author    = "ericem1"
-  # spec.authors            = { "ericem1" => "eric.wang@snappay.ca" }
-  # spec.social_media_url   = "https://twitter.com/ericem1"
+  spec.author             = { "snappay" => "developer@snappay.ca" }
+  # Or just: spec.author    = "snappay"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
