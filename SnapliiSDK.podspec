@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "12.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -91,10 +91,9 @@ Pod::Spec.new do |spec|
 
   spec.swift_versions = ['5.5.2']
   spec.vendored_frameworks = "SnapliiSDK.xcframework"
-  spec.resource = 'Resource.bundle'
+  spec.resources = "Resource/*"
 
   # spec.public_header_files = "Classes/**/*.h"
-
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -133,6 +132,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
+  spec.dependency 'GooglePlaces', '~>6.2.1'
   spec.dependency 'AFNetworking', '~> 4.0.1'
   spec.dependency 'Masonry', '~> 1.1.0'
   spec.dependency 'MJExtension', '~> 3.4.1'

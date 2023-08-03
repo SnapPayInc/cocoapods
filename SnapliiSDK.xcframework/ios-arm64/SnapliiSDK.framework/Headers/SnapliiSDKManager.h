@@ -29,21 +29,19 @@ typedef Callback AutoLoginCallback;
 - (void)initAppId:(NSString *)appId
          language:(NSString *)language
     personalToken:(NSString *)personalToken
-     customerData:(NSString *)customerData
+       customData:(nullable NSDictionary *)customData
          callback:(OTPCallback)callback;
 
 //是否开通了Snaplii信用付
 - (void)hasSnapliiCredit:(HasSnapliiCreditCallback)completion;
 
 //注册开通信用付
-- (void)initSnapliiCredit:(ApplyResultCallback)callback;
+- (void)initSnapliiCredit:(UIViewController *)viewController
+                 callback:(ApplyResultCallback)callback;
 
 
 //配置语言
 - (void)setLanguage:(NSString *)language;
-
-- (void)login:(UIViewController *)currentController
-     callback:(LoginCallback)callback;
 
 // 清除用户登陆信息
 - (void)logout;
@@ -52,11 +50,14 @@ typedef Callback AutoLoginCallback;
 - (BOOL)hasLogin;
 
 //支付
+
 - (void)payment:(NSString *)paymentSign
     orderAmount:(NSString *)orderAmount
   outterOrderNo:(NSString *)outterOrderNo
  viewController:(UIViewController *)viewController
        callback:(PayResultCallback)callback;
+
+- (NSString *)getVersion;
 
 @end
 
