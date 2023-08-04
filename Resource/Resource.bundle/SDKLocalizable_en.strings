@@ -12,7 +12,8 @@
 "UnfinishedApplication" = "You have an unfinished application";
 "Try again" = "Try again";
 "Oops! Something went wrong." = "Oops! Something went wrong.";
-"You have applied with another phone number" = "You have applied with another phone number";
+"Duplicate application" = "Duplicate application";
+"You have applied with another phone number" = "It seems that you have already applied for Snaplii Credit\nPlease contact Snaplii customer service for assistance.";
 "Quit" = "Quit";
 "Oops! Not approved." = "Oops! Not approved.";
 "Could not apply" = "Could not apply";
@@ -23,7 +24,7 @@
 "Still under review..." = "Still under review...";
 "We want to learn more about you" = "We want to learn more about you";
 "SelectPaymentMethod" = "You can go back to checkout page and select \"Snaplii Credit\" as your payment method.";
-"FindUnfinishedApplication" = "Sorry, we just found that you have an unfinished application in Snaplii App. Please go to Snaplii App to complete the previous application.\n\nIf you haven’t downloaded Snaplii App yet, please get it in the application market.";
+"FindUnfinishedApplication" = "Sorry, we just found that you have an unfinished application in Snaplii App. Please go to Snaplii App to complete the previous application.\nIf you haven’t downloaded Snaplii App yet, please get it in the application market.";
 "UnknownError" = "Sorry, your application has not been successful due to the network or something unknown. You could try it later and hope your next application will be successful!\n\nIf you have any questions, please contact Snaplii customer service..";
 "Third-party platform" = "Sorry, we just found that you have an applied for Snaplii Credit in Third-party platform App and please continue with that one.";
 "NotBeenApproved" = "Sorry, your application has not been approved yet. It is recommended that you try to apply again, and double check if the information is accurate. Hope your next application will be successful!\n\nIf you have any questions, please contact Snaplii customer service.";

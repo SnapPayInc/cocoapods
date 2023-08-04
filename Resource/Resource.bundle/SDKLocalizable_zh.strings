@@ -12,7 +12,8 @@
 "UnfinishedApplication" = "您有未完成的申请";
 "Try again" = "重试";
 "Oops! Something went wrong." = "出了点问题";
-"You have applied with another phone number" = "您已用其他手机号申请过";
+"Duplicate application" = "重复申请";
+"You have applied with another phone number" = "您似乎已经申请过信用付。\n如有其他问题，欢迎联系snaplii客服。";
 "Quit" = "退出";
 "Oops! Not approved." = "申请未成功";
 "Could not apply" = "无法申请";
