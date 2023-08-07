@@ -56,7 +56,7 @@ typedef Callback AutoLoginCallback;
  viewController:(UIViewController *)viewController
        callback:(PayResultCallback)callback DEPRECATED_MSG_ATTRIBUTE("Please use payment:viewController:callback:");
 
-- (void)payment:(NSDictionary *)orderDict
+- (void)payment:(NSString *)orderStr
  viewController:(UIViewController *)viewController
        callback:(PayResultCallback)callback;
 
