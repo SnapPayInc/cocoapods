@@ -39,6 +39,8 @@ typedef Callback AutoLoginCallback;
 - (void)initSnapliiCredit:(UIViewController *)viewController
                  callback:(ApplyResultCallback)callback;
 
+- (void)login:(UIViewController *)viewController
+     callback:(LoginCallback)callback;
 
 //配置语言
 - (void)setLanguage:(NSString *)language;
