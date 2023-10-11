@@ -1,16 +1,18 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SnapliiSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AcuantHGLiveness
 import AcuantImagePreparation
 import Foundation
+import MJExtension
 @_exported import SnapliiSDK
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public typealias PassSelfie = (_ selfieImage: UIKit.UIImage) -> Swift.Void
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class FaceLivenessCameraController : UIKit.UIViewController, AcuantHGLiveness.AcuantHGLiveFaceCaptureDelegate {
   @objc @_Concurrency.MainActor(unsafe) public var passSelfie: SnapliiSDK.PassSelfie?
@@ -29,6 +31,25 @@ public typealias PassSelfie = (_ selfieImage: UIKit.UIImage) -> Swift.Void
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class SNEnvironment : ObjectiveC.NSObject {
+  @objc public var name: Swift.String {
+    get
+  }
+  @objc public var host: Swift.String {
+    get
+  }
+  @objc public var h5Host: Swift.String {
+    get
+  }
+  @objc public static let Test: Swift.String
+  @objc public static let Stage: Swift.String
+  @objc public static let Sandbox: Swift.String
+  @objc public static let Release: Swift.String
+  @objc deinit
+}
+extension SnapliiSDK.SNEnvironment {
+  @objc public static func environment(_ value: Swift.String) -> SnapliiSDK.SNEnvironment
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class AcuantProgressView : UIKit.UIView {
   @objc @_Concurrency.MainActor(unsafe) public var shouldSetupConstraints: Swift.Bool
   @objc @_Concurrency.MainActor(unsafe) public var loadingView: UIKit.UIView!
@@ -39,4 +60,10 @@ public typealias PassSelfie = (_ selfieImage: UIKit.UIImage) -> Swift.Void
   @objc @_Concurrency.MainActor(unsafe) public func stopAnimation()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func updateConstraints()
   @objc deinit
+}
+extension UIKit.UIWindow {
+  @objc @_Concurrency.MainActor(unsafe) public static var key: UIKit.UIWindow? {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) public static let main: UIKit.UIWindow
 }

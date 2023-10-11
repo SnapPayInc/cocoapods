@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void (^Callback)(BOOL success, NSString * _Nullable message);
+typedef void (^Callback)(BOOL success, NSString *code, NSString * _Nullable message);
 
 typedef void(^GetOTPBlock)(NSString *otp);
 typedef void(^OTPCallback)(GetOTPBlock getOTPBlock);
@@ -37,6 +37,7 @@ typedef Callback AutoLoginCallback;
 
 //注册开通信用付
 - (void)initSnapliiCredit:(UIViewController *)viewController
+                    token:(nullable NSString *)campaignToken
                  callback:(ApplyResultCallback)callback;
 
 - (void)login:(UIViewController *)viewController
@@ -51,13 +52,14 @@ typedef Callback AutoLoginCallback;
 // 是否登陆
 - (BOOL)hasLogin;
 
-//支付
-- (void)payment:(NSString *)paymentSign
-    orderAmount:(NSString *)orderAmount
-  outterOrderNo:(NSString *)outterOrderNo
- viewController:(UIViewController *)viewController
-       callback:(PayResultCallback)callback DEPRECATED_MSG_ATTRIBUTE("Please use payment:viewController:callback:");
+/*
+ *  @param sandbox YES 使用sandbox环境, NO 使用生产环境
+ *  不调用该接口，默认为生产环境
+ *  请只在调试情况下，在 init SDK 之前调用
+ */
+- (void)useSandbox:(BOOL)sandbox;
 
+//支付
 - (void)payment:(NSString *)orderStr
  viewController:(UIViewController *)viewController
        callback:(PayResultCallback)callback;

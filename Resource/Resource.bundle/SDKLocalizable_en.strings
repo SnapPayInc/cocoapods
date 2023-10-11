@@ -4,6 +4,9 @@
 "CommonNetworkError" = "The network is unstable. Please try again later!";
 "PhoneVerifySuccess" = "Verify Done.";
 
+"Not Login" = "You have not logined yet";
+"Please Login" = "Please login Snplii Crdit first";
+
 // ApplyResultPageController
 "Back" = "Back";
 "You have not activated Snaplii Credit" = "You have not activated Snaplii Credit";
@@ -90,3 +93,9 @@
 // Confirm to quit?
 "Confirm to quit?" = "Confirm to quit?";
 "Apply for Snaplii Credit to enjoy great benefit" = "Apply for Snaplii Credit to\nenjoy great benefit";
+
+// VerifyCreditTermsAndAgreementsContrller
+"SNSubmitAgreementTitle" = "Do you consent to the following?";
+"SNIdentifyVerificationSubContent" = "Proceeding will not impact your credit score.";
+"SNIdentityVerificationSubtitle" = "Identity Verification";
+

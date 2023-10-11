@@ -751,7 +751,501 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SnapliiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MJExtension",
+        "printedName": "MJExtension",
+        "declKind": "Import",
+        "moduleName": "SnapliiSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SNEnvironment",
+        "printedName": "SNEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(py)name",
+            "mangledName": "$s10SnapliiSDK13SNEnvironmentC4nameSSvp",
+            "moduleName": "SnapliiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(im)name",
+                "mangledName": "$s10SnapliiSDK13SNEnvironmentC4nameSSvg",
+                "moduleName": "SnapliiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "host",
+            "printedName": "host",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(py)host",
+            "mangledName": "$s10SnapliiSDK13SNEnvironmentC4hostSSvp",
+            "moduleName": "SnapliiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(im)host",
+                "mangledName": "$s10SnapliiSDK13SNEnvironmentC4hostSSvg",
+                "moduleName": "SnapliiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "h5Host",
+            "printedName": "h5Host",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(py)h5Host",
+            "mangledName": "$s10SnapliiSDK13SNEnvironmentC6h5HostSSvp",
+            "moduleName": "SnapliiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(im)h5Host",
+                "mangledName": "$s10SnapliiSDK13SNEnvironmentC6h5HostSSvg",
+                "moduleName": "SnapliiSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Test",
+            "printedName": "Test",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cpy)Test",
+            "mangledName": "$s10SnapliiSDK13SNEnvironmentC4TestSSvpZ",
+            "moduleName": "SnapliiSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cm)Test",
+                "mangledName": "$s10SnapliiSDK13SNEnvironmentC4TestSSvgZ",
+                "moduleName": "SnapliiSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Stage",
+            "printedName": "Stage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cpy)Stage",
+            "mangledName": "$s10SnapliiSDK13SNEnvironmentC5StageSSvpZ",
+            "moduleName": "SnapliiSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cm)Stage",
+                "mangledName": "$s10SnapliiSDK13SNEnvironmentC5StageSSvgZ",
+                "moduleName": "SnapliiSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Sandbox",
+            "printedName": "Sandbox",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cpy)Sandbox",
+            "mangledName": "$s10SnapliiSDK13SNEnvironmentC7SandboxSSvpZ",
+            "moduleName": "SnapliiSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cm)Sandbox",
+                "mangledName": "$s10SnapliiSDK13SNEnvironmentC7SandboxSSvgZ",
+                "moduleName": "SnapliiSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Release",
+            "printedName": "Release",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cpy)Release",
+            "mangledName": "$s10SnapliiSDK13SNEnvironmentC7ReleaseSSvpZ",
+            "moduleName": "SnapliiSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cm)Release",
+                "mangledName": "$s10SnapliiSDK13SNEnvironmentC7ReleaseSSvgZ",
+                "moduleName": "SnapliiSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "environment",
+            "printedName": "environment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SNEnvironment",
+                "printedName": "SnapliiSDK.SNEnvironment",
+                "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SnapliiSDK@objc(cs)SNEnvironment(cm)environment:",
+            "mangledName": "$s10SnapliiSDK13SNEnvironmentC11environmentyACSSFZ",
+            "moduleName": "SnapliiSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment",
+        "mangledName": "$s10SnapliiSDK13SNEnvironmentC",
+        "moduleName": "SnapliiSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnapliiSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -1440,6 +1934,246 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnapliiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIWindow",
+        "printedName": "UIWindow",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SnapliiSDK@@objc(cs)UIWindow(cpy)key",
+            "mangledName": "$sSo8UIWindowC10SnapliiSDKE3keyABSgvpZ",
+            "moduleName": "SnapliiSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindow?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindow",
+                        "printedName": "UIKit.UIWindow",
+                        "usr": "c:objc(cs)UIWindow"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SnapliiSDK@@objc(cs)UIWindow(cm)key",
+                "mangledName": "$sSo8UIWindowC10SnapliiSDKE3keyABSgvgZ",
+                "moduleName": "SnapliiSDK",
+                "static": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "main",
+            "printedName": "main",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIWindow",
+                "printedName": "UIKit.UIWindow",
+                "usr": "c:objc(cs)UIWindow"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SnapliiSDK@@objc(cs)UIWindow(cpy)main",
+            "mangledName": "$sSo8UIWindowC10SnapliiSDKE4mainABvpZ",
+            "moduleName": "SnapliiSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SnapliiSDK@@objc(cs)UIWindow(cm)main",
+                "mangledName": "$sSo8UIWindowC10SnapliiSDKE4mainABvgZ",
+                "moduleName": "SnapliiSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIWindow",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIWindow",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -1478,6 +2212,90 @@
       "offset": 12185,
       "length": 2,
       "value": "25"
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 6,
+      "value": "\"Test\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 983,
+      "length": 7,
+      "value": "\"Stage\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 9,
+      "value": "\"Sandbox\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 1077,
+      "length": 9,
+      "value": "\"Release\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 1570,
+      "length": 45,
+      "value": "\"http:\/\/snaplii-credit-sdk.local.snaplii.com\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 1633,
+      "length": 34,
+      "value": "\"https:\/\/gateway.test.snaplii.com\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 1814,
+      "length": 45,
+      "value": "\"http:\/\/snaplii-credit-sdk.stage.snaplii.com\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 1888,
+      "length": 35,
+      "value": "\"https:\/\/gateway.stage.snaplii.com\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 2099,
+      "length": 48,
+      "value": "\"https:\/\/snaplii-credit-sdk.sandbox.snaplii.com\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 2176,
+      "length": 37,
+      "value": "\"https:\/\/gateway.sandbox.snaplii.com\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 2332,
+      "length": 32,
+      "value": "\"https:\/\/credit-sdk.snaplii.com\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 2382,
+      "length": 29,
+      "value": "\"https:\/\/gateway.snaplii.com\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/View\/AcuantProgressView.swift",

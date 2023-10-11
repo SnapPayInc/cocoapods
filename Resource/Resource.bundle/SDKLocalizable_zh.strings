@@ -5,6 +5,9 @@
 "PhoneVerifySuccess" = "验证完成";
 
 //
+"Not Login" = "您还未登录";
+"Please Login" = "请登陆您的信用付";
+
 "Back" = "返回";
 "You have not activated Snaplii Credit" = "您还未开通Snaplii信用付";
 "AlreadyApproved" = "您已经是Snaplii信用付用户了!";
@@ -82,3 +85,7 @@
 
 "Confirm to quit?" = "是否确认退出？";
 "Apply for Snaplii Credit to enjoy great benefit" = "申请信用付可获得高额优惠";
+
+"SNSubmitAgreementTitle" = "隐私协议";
+"SNIdentifyVerificationSubContent" = "此流程不会影响你的信用记录 ";
+"SNIdentityVerificationSubtitle" = "Identity Verification";

@@ -1,7 +1,7 @@
 framework module SnapliiSDK {
   umbrella header "SnapliiSDK.h"
-
   export *
+
   module * { export * }
 }
 

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SnapliiSDK"
-  spec.version      = "0.0.23"
+  spec.version      = "0.0.24"
   spec.summary      = "This is SnapliiSDK."
 
   # This description is used to generate tags and improve search results.
@@ -132,12 +132,14 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-  spec.dependency 'GooglePlaces', '~>6.2.1'
   spec.dependency 'AFNetworking', '~> 4.0.1'
   spec.dependency 'Masonry', '~> 1.1.0'
   spec.dependency 'MJExtension', '~> 3.4.1'
   spec.dependency 'MBProgressHUD', '~> 1.2.0'
   spec.dependency 'YYCache', '~> 1.0.4'
+  spec.dependency 'CocoaLumberjack/Swift', '~> 3.8.1'
+  spec.dependency 'KSCrash', '~> 1.15.27'
+  spec.dependency 'IQKeyboardManagerSwift'
   spec.dependency "AcuantiOSSDKV11/AcuantCamera", '~> 11.5.8'
   spec.dependency "AcuantiOSSDKV11/AcuantFaceCapture", '~> 11.5.8'
   spec.dependency "AcuantiOSSDKV11/AcuantHGLiveness", '~> 11.5.8'
