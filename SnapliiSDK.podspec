@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SnapliiSDK"
-  spec.version      = "0.0.24"
+  spec.version      = "0.0.25"
   spec.summary      = "This is SnapliiSDK."
 
   # This description is used to generate tags and improve search results.
