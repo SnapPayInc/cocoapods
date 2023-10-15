@@ -89,3 +89,9 @@
 "SNSubmitAgreementTitle" = "隐私协议";
 "SNIdentifyVerificationSubContent" = "此流程不会影响你的信用记录 ";
 "SNIdentityVerificationSubtitle" = "Identity Verification";
+
+"SCIdvRetryTitle" = "您提供的信息可能有误，请检查修改并重新提交。";
+"SCFullAddress" = "地址";
+"SCFirstName1" = "名";
+"SCFamilyName1" = "姓";
+"SCSubmitBtn" = "确认提交";

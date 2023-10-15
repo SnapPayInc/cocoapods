@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char SnapliiSDKVersionString[];
 
 #import <SnapliiSDK/SnapliiSDKManager.h>
 #import <SnapliiSDK/SNLog.h>
+#import <SnapliiSDK/SNViewController.h>

@@ -99,3 +99,9 @@
 "SNIdentifyVerificationSubContent" = "Proceeding will not impact your credit score.";
 "SNIdentityVerificationSubtitle" = "Identity Verification";
 
+//idv retry
+"SCIdvRetryTitle" = "Something went wrong with your info. Please check and submit again.";
+"SCFullAddress" = "Address";
+"SCFirstName1" = "First name";
+"SCFamilyName1" = "Last name";
+"SCSubmitBtn" = "Confirm to submit";

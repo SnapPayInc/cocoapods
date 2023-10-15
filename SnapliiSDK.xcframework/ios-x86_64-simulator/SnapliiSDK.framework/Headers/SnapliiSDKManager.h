@@ -10,16 +10,26 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void (^Callback)(BOOL success, NSString *code, NSString * _Nullable message);
-
 typedef void(^GetOTPBlock)(NSString *otp);
 typedef void(^OTPCallback)(GetOTPBlock getOTPBlock);
 
-typedef Callback ApplyResultCallback;
-typedef Callback HasSnapliiCreditCallback;
-typedef Callback PayResultCallback;
-typedef Callback LoginCallback;
-typedef Callback AutoLoginCallback;
+// 无参数回调 成功/取消 VoidCallback
+typedef void (^VoidCallback)(void);
+
+// 失败回调 Callback
+typedef void (^Callback)(NSString *code, NSString *message);
+
+typedef VoidCallback ApplyCompletionCallback;
+typedef VoidCallback ApplyCancelCallback;
+
+typedef VoidCallback PaySuccessCallback;
+typedef VoidCallback PayCancelCallback;
+typedef Callback PayFailureCallback;
+
+typedef VoidCallback LoginSuccessCallback;
+typedef VoidCallback LoginCancelCallback;
+
+typedef void (^HasSnapliiCreditCallback)(BOOL success, NSString * _Nullable code, NSString * _Nullable message);
 
 @interface SnapliiSDKManager : NSObject
 
@@ -32,19 +42,21 @@ typedef Callback AutoLoginCallback;
        customData:(nullable NSDictionary *)customData
          callback:(OTPCallback)callback;
 
+//配置语言
+- (void)setLanguage:(NSString *)language;
+
 //是否开通了Snaplii信用付
 - (void)hasSnapliiCredit:(HasSnapliiCreditCallback)completion;
 
 //注册开通信用付
-- (void)initSnapliiCredit:(UIViewController *)viewController
-                    token:(nullable NSString *)campaignToken
-                 callback:(ApplyResultCallback)callback;
+- (void)applySnapliiCredit:(UIViewController *)viewController
+                     token:(nullable NSString *)campaignToken
+                completion:(ApplyCompletionCallback)completion
+                    cancel:(ApplyCancelCallback)cancel;
 
 - (void)login:(UIViewController *)viewController
-     callback:(LoginCallback)callback;
-
-//配置语言
-- (void)setLanguage:(NSString *)language;
+      success:(LoginSuccessCallback)success
+       cancel:(LoginCancelCallback)cancel;
 
 // 清除用户登陆信息
 - (void)logout;
@@ -62,7 +74,9 @@ typedef Callback AutoLoginCallback;
 //支付
 - (void)payment:(NSString *)orderStr
  viewController:(UIViewController *)viewController
-       callback:(PayResultCallback)callback;
+        success:(PaySuccessCallback)success
+        failure:(PayFailureCallback)failure
+         cancel:(PayCancelCallback)cancel;
 
 - (NSString *)getVersion;
 
