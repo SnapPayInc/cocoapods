@@ -79,6 +79,7 @@
 "SCBirthDay" = "Date of birth";
 "SCPersonalInfoTitle" = "Your personal info";
 "SCMiddleName1" = "Middle name";
+"SCillegalBirthDay" = "You are underage under the laws of your province and cannot apply for Snaplii credit.";
 
 // InputUserAllInfoContreller
 "SCPhoneNumberTitle1" = "Phone number";
@@ -99,3 +100,9 @@
 "SNIdentifyVerificationSubContent" = "Proceeding will not impact your credit score.";
 "SNIdentityVerificationSubtitle" = "Identity Verification";
 
+//idv retry
+"SCIdvRetryTitle" = "Something went wrong with your info. Please check and submit again.";
+"SCFullAddress" = "Address";
+"SCFirstName1" = "First name";
+"SCFamilyName1" = "Last name";
+"SCSubmitBtn" = "Confirm to submit";

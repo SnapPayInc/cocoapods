@@ -42,6 +42,12 @@ typedef void (^HasSnapliiCreditCallback)(BOOL success, NSString * _Nullable code
        customData:(nullable NSDictionary *)customData
          callback:(OTPCallback)callback;
 
+- (void)initAppId:(NSString *)appId
+         language:(NSString *)language
+    personalToken:(NSString *)personalToken
+ customDataString:(nullable NSString *)customDataString
+         callback:(OTPCallback)callback;
+
 //配置语言
 - (void)setLanguage:(NSString *)language;
 

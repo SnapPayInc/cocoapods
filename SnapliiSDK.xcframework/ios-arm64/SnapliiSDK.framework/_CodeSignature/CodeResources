@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SNLog.h</key>
 		<data>
-		3dY+/U7Oo+XRaPHWBaGrlcaOexM=
+		BZEARKBZfJPQme1UQaH5s4BNtWg=
 		</data>
 		<key>Headers/SNLogLevel.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/SNViewController.h</key>
 		<data>
-		iSZ1lJng0uIkV0a2/+pSPA9Fvbs=
+		srfCgLpj2xeEv5St3r01C1Vq6xQ=
 		</data>
 		<key>Headers/SnapliiSDK-Swift.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/SnapliiSDKManager.h</key>
 		<data>
-		CCs+iKEgKJ9hkqXIFb1hGcPmVKw=
+		T7VKCAsQshBGMNZOrz95D3w9OdE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		XD1qyYKt1B+fN8BlcgTY+BOejMg=
+		C71bsVf6i+PwOdWjTXxiypbfqpk=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		O/TDwWW6DoSrtmQcIp4huyqUzfA=
+		NuyNqrujg3Z3H4l9qx7H0zTMwQE=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YKLE0K3LSwnQ7fQyhWF+xXWIQHA=
+		CWeWIxcQgOjywqaVRICyM/KxGmg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3dY+/U7Oo+XRaPHWBaGrlcaOexM=
+			BZEARKBZfJPQme1UQaH5s4BNtWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hX8hnJ2vjkRjvjDwHPGjn3ceZnP/LCaz88TrubosLQ0=
+			jJmcH7mSSwFPCTzhJLK3imB11yhHM1B7FwwVFma+dlo=
 			</data>
 		</dict>
 		<key>Headers/SNLogLevel.h</key>
@@ -89,11 +89,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iSZ1lJng0uIkV0a2/+pSPA9Fvbs=
+			srfCgLpj2xeEv5St3r01C1Vq6xQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			hm3+f5qMtTWOvEfVNYTXBp0TatrlvJsUv2gdYocKJiQ=
+			r0CnHyCN2CdM+vG+ZJLpWl4eRalk+Ww/q1Z0Y075GV4=
 			</data>
 		</dict>
 		<key>Headers/SnapliiSDK-Swift.h</key>
@@ -122,33 +122,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CCs+iKEgKJ9hkqXIFb1hGcPmVKw=
+			T7VKCAsQshBGMNZOrz95D3w9OdE=
 			</data>
 			<key>hash2</key>
 			<data>
-			CUL5eLOCHnLqVDf8w4ng/V/50nfsK2p951BJnNm92OQ=
+			RlZ81/dZgHLUzmf6A8q/uZ84M9LSRDPF/GFtoBkEQ2I=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XD1qyYKt1B+fN8BlcgTY+BOejMg=
+			C71bsVf6i+PwOdWjTXxiypbfqpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			929OoEYhbclmJxa4rZeV1Uxm8AYHHKLbS60f6CYM0yw=
+			WbvUvq1vfWD31PpDICcZe9ch0OwTh0C5g4SbIhLj3Ow=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O/TDwWW6DoSrtmQcIp4huyqUzfA=
+			NuyNqrujg3Z3H4l9qx7H0zTMwQE=
 			</data>
 			<key>hash2</key>
 			<data>
-			lp6eSNCsNyKCwFj0iythJV6TbB6kea2FwV3nf7PoAX8=
+			2aG3sY22HufoJeL2EN3CSr1ktWCm/GbJ9nvUdnRp03I=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YKLE0K3LSwnQ7fQyhWF+xXWIQHA=
+			CWeWIxcQgOjywqaVRICyM/KxGmg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zhx6Y5l/Aen8eJL32+G/wsH6RvdZFbCa7t8ZAVxDa8Y=
+			4LXGreMCXvT1YJzYeIvbVvgdfj3KCy9FPLgccLNwg8M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

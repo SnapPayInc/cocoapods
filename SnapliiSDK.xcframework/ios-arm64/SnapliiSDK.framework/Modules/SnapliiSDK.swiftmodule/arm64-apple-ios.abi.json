@@ -2298,6 +2298,27 @@
       "value": "\"https:\/\/gateway.snaplii.com\""
     },
     {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Log\/SNLog.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Log\/SNLog.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Log\/SNLog.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/View\/AcuantProgressView.swift",
       "kind": "BooleanLiteral",
       "offset": 276,

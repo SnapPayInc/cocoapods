@@ -22,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL keyboardManagerEnabled;
 @property (nonatomic, assign) CGFloat keyboardDistanceFromTextField;
 
+- (void)setupParameters:(NSDictionary<NSString *, id> *)parameters;
+
 @end
 
 NS_ASSUME_NONNULL_END
