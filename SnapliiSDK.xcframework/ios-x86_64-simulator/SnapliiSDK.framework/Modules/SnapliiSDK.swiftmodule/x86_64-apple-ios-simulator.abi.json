@@ -1029,6 +1029,59 @@
           },
           {
             "kind": "Var",
+            "name": "Shaolin",
+            "printedName": "Shaolin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cpy)Shaolin",
+            "mangledName": "$s10SnapliiSDK13SNEnvironmentC7ShaolinSSvpZ",
+            "moduleName": "SnapliiSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SnapliiSDK@objc(cs)SNEnvironment(cm)Shaolin",
+                "mangledName": "$s10SnapliiSDK13SNEnvironmentC7ShaolinSSvgZ",
+                "moduleName": "SnapliiSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "Sandbox",
             "printedName": "Sandbox",
             "children": [
@@ -2232,68 +2285,89 @@
       "kind": "StringLiteral",
       "offset": 1029,
       "length": 9,
-      "value": "\"Sandbox\""
+      "value": "\"Shaolin\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
       "kind": "StringLiteral",
       "offset": 1077,
       "length": 9,
+      "value": "\"Sandbox\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 9,
       "value": "\"Release\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 1570,
+      "offset": 1683,
       "length": 45,
       "value": "\"http:\/\/snaplii-credit-sdk.local.snaplii.com\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 1633,
+      "offset": 1746,
       "length": 34,
       "value": "\"https:\/\/gateway.test.snaplii.com\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 1814,
+      "offset": 1927,
       "length": 45,
       "value": "\"http:\/\/snaplii-credit-sdk.stage.snaplii.com\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 1888,
+      "offset": 2001,
       "length": 35,
       "value": "\"https:\/\/gateway.stage.snaplii.com\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 2099,
+      "offset": 2210,
+      "length": 53,
+      "value": "\"http:\/\/snaplii-credit-sdk.stage-shaolin.snaplii.com\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 2292,
+      "length": 35,
+      "value": "\"https:\/\/gateway.stage.snaplii.com\""
+    },
+    {
+      "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 2503,
       "length": 48,
       "value": "\"https:\/\/snaplii-credit-sdk.sandbox.snaplii.com\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 2176,
+      "offset": 2580,
       "length": 37,
       "value": "\"https:\/\/gateway.sandbox.snaplii.com\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2736,
       "length": 32,
       "value": "\"https:\/\/credit-sdk.snaplii.com\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/Tools\/Librarys\/SNEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 2382,
+      "offset": 2786,
       "length": 29,
       "value": "\"https:\/\/gateway.snaplii.com\""
     },

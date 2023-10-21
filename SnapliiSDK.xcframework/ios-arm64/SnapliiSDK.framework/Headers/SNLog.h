@@ -11,6 +11,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+extern NSString * const SNLogTagPayment;
+extern NSString * const SNLogTagCredit;
+
 #define SNLogDebug(frmt, ...) [SNLog debug:__FILE__ function:__PRETTY_FUNCTION__ line:__LINE__ tag:@"" format:(frmt), ## __VA_ARGS__]
 
 #define SNLogTagDebug(tagValue, frmt, ...) [SNLog debug:__FILE__ function:__PRETTY_FUNCTION__ line:__LINE__ tag:(tagValue) format:(frmt), ## __VA_ARGS__]
@@ -31,6 +34,8 @@ NS_ASSUME_NONNULL_BEGIN
 #define SNLogFatal(frmt, ...) [SNLog fatal: __FILE__ function: __PRETTY_FUNCTION__ line: __LINE__ tag:@"" format: (frmt), ## __VA_ARGS__]
 
 #define SNLogTagFatal(tagValue, frmt, ...) [SNLog fatal: __FILE__ function: __PRETTY_FUNCTION__ line: __LINE__ tag:(tagValue) format: (frmt), ## __VA_ARGS__]
+
+#define SNBridgeLog(flag, tagValue, message) [SNLog log:(flag) tag:(tagValue) logStr:(message)]
 
 @interface SNLog : NSObject
 
@@ -66,6 +71,11 @@ NS_ASSUME_NONNULL_BEGIN
         tag:(nullable NSString *)tag
      format:(NSString *)format
        args:(va_list)args;
+
+// only for vue and rn
++ (void)log:(NSString *)flag
+        tag:(NSString *)tag
+     logStr:(NSString *)logStr;
 
 @end
 

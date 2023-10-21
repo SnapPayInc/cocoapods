@@ -42,6 +42,7 @@ public typealias PassSelfie = (_ selfieImage: UIKit.UIImage) -> Swift.Void
   }
   @objc public static let Test: Swift.String
   @objc public static let Stage: Swift.String
+  @objc public static let Shaolin: Swift.String
   @objc public static let Sandbox: Swift.String
   @objc public static let Release: Swift.String
   @objc deinit
