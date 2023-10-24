@@ -9,7 +9,6 @@
 "acuant_camera_paused" = "CAMERA PAUSED";
 "acuant_camera_capture_barcode" = "CAPTURE BARCODE";
 
-
 /* AcuantFaceCapture/AcuantPassiveLiveness */
 "acuant_face_camera_initial" = " 请正对摄像头以开始拍摄";
 "acuant_face_camera_face_too_close" = "请离远一些";

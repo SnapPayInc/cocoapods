@@ -60,9 +60,11 @@ typedef void (^HasSnapliiCreditCallback)(BOOL success, NSString * _Nullable code
                 completion:(ApplyCompletionCallback)completion
                     cancel:(ApplyCancelCallback)cancel;
 
-- (void)login:(UIViewController *)viewController
-      success:(LoginSuccessCallback)success
-       cancel:(LoginCancelCallback)cancel;
+- (void)applySnapliiCredit:(NSString *)landingUrl
+            viewController:(UIViewController *)viewController
+                     token:(nullable NSString *)campaignToken
+                completion:(ApplyCompletionCallback)completion
+                    cancel:(ApplyCancelCallback)cancel;
 
 // 清除用户登陆信息
 - (void)logout;
