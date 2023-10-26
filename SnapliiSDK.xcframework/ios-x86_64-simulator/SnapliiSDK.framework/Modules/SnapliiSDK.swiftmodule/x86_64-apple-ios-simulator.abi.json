@@ -4545,14 +4545,14 @@
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/Controller\/SNCameraTextView.swift",
       "kind": "StringLiteral",
-      "offset": 5159,
+      "offset": 4810,
       "length": 34,
       "value": "\"UISupportedInterfaceOrientations\""
     },
     {
       "filePath": "\/Users\/tony\/Documents\/Snaplii\/SnapliiSDKDemo\/SnapliiSDK\/SnapliiSDK\/ApplyCreditPay\/TakeIDPicture\/Controller\/SNCameraTextView.swift",
       "kind": "StringLiteral",
-      "offset": 5243,
+      "offset": 4894,
       "length": 32,
       "value": "\"UIInterfaceOrientationPortrait\""
     },
