@@ -231,8 +231,11 @@ using UInt = size_t;
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AcuantHGLiveness;
+@import AcuantiOSSDKV11;
 @import CoreFoundation;
+@import Foundation;
 @import ObjectiveC;
+@import QuartzCore;
 @import UIKit;
 #endif
 
@@ -272,6 +275,7 @@ SWIFT_CLASS("_TtC10SnapliiSDK18AcuantProgressView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+
 @class UIImage;
 @protocol HGLivenessDelegate;
 @class LiveFaceDetails;
@@ -292,6 +296,58 @@ SWIFT_CLASS("_TtC10SnapliiSDK28FaceLivenessCameraController")
 - (void)liveFaceDetailsCapturedWithLiveFaceDetails:(LiveFaceDetails * _Nullable)liveFaceDetails faceType:(enum AcuantFaceType)faceType;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10SnapliiSDK25SNCameraCornerOverlayView")
+@interface SNCameraCornerOverlayView : CALayer
+- (nonnull instancetype)initWithLayer:(id _Nonnull)layer SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@protocol CameraCaptureDelegate;
+@class CameraOptions;
+@protocol UIViewControllerTransitionCoordinator;
+
+SWIFT_CLASS("_TtC10SnapliiSDK26SNDocumentCameraController")
+@interface SNDocumentCameraController : UIViewController
++ (SNDocumentCameraController * _Nonnull)getCameraControllerWithDelegate:(id <CameraCaptureDelegate> _Nonnull)delegate cameraOptions:(CameraOptions * _Nonnull)cameraOptions SWIFT_WARN_UNUSED_RESULT;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillAppear:(BOOL)animated;
+@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
+@property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nullable localizedMap;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+typedef SWIFT_ENUM(NSInteger, SNCameraState, open) {
+  SNCameraStateAlign = 0,
+  SNCameraStateMoveCloser = 1,
+  SNCameraStateSteady = 2,
+  SNCameraStateHold = 3,
+  SNCameraStateCapture = 4,
+};
+
+
+@interface SNDocumentCameraController (SWIFT_EXTENSION(SnapliiSDK)) <FrameAnalysisDelegate>
+- (void)onFrameAvailableWithFrameResult:(enum FrameResult)frameResult points:(NSArray<NSValue *> * _Nullable)points;
+@end
+
+
+@interface SNDocumentCameraController (SWIFT_EXTENSION(SnapliiSDK)) <DocumentCaptureDelegate>
+- (void)readyToCapture;
+- (void)documentCapturedWithImage:(UIImage * _Nonnull)image barcodeString:(NSString * _Nullable)barcodeString;
+@end
+
+
+@interface SNDocumentCameraController (SWIFT_EXTENSION(SnapliiSDK)) <AutoCaptureDelegate>
+- (BOOL)getAutoCapture SWIFT_WARN_UNUSED_RESULT;
+- (void)setAutoCaptureWithAutoCapture:(BOOL)autoCapture;
 @end
 
 
@@ -318,6 +374,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @interface SNEnvironment (SWIFT_EXTENSION(SnapliiSDK))
 + (SNEnvironment * _Nonnull)environment:(NSString * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 
 

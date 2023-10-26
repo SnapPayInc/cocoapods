@@ -3,8 +3,10 @@
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SnapliiSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
+import AcuantCommon
 import AcuantHGLiveness
 import AcuantImagePreparation
+import AcuantiOSSDKV11
 import Foundation
 import MJExtension
 @_exported import SnapliiSDK
@@ -61,9 +63,58 @@ extension SnapliiSDK.SNEnvironment {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func updateConstraints()
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers public class SNCameraCornerOverlayView : QuartzCore.CALayer {
+  public var bracketWidth: Swift.Int?
+  public var bracketHeight: Swift.Int?
+  public var defaultBracketMarginWidth: CoreFoundation.CGFloat?
+  public var defaultBracketMarginHeight: CoreFoundation.CGFloat?
+  public init(options: AcuantiOSSDKV11.CameraOptions)
+  public func setColor(color: CoreGraphics.CGColor?)
+  public func setDefaultCorners(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
 extension UIKit.UIWindow {
   @objc @_Concurrency.MainActor(unsafe) public static var key: UIKit.UIWindow? {
     @objc get
   }
   @objc @_Concurrency.MainActor(unsafe) public static let main: UIKit.UIWindow
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SNDocumentCameraController : UIKit.UIViewController {
+  @objc public enum SNCameraState : Swift.Int {
+    case Align = 0, MoveCloser = 1, Steady = 2, Hold = 3, Capture = 4
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc @_Concurrency.MainActor(unsafe) public class func getCameraController(delegate: AcuantiOSSDKV11.CameraCaptureDelegate, cameraOptions: AcuantiOSSDKV11.CameraOptions) -> SnapliiSDK.SNDocumentCameraController
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var prefersStatusBarHidden: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) public func rotateImage(image: UIKit.UIImage) -> UIKit.UIImage
+  @_Concurrency.MainActor(unsafe) public func isDocumentMoved(points: [CoreFoundation.CGPoint]) -> Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var localizedMap: [Swift.String : Swift.String]?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension SnapliiSDK.SNDocumentCameraController : AcuantiOSSDKV11.DocumentCaptureDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func readyToCapture()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func documentCaptured(image: UIKit.UIImage, barcodeString: Swift.String?)
+}
+extension SnapliiSDK.SNDocumentCameraController : AcuantiOSSDKV11.FrameAnalysisDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onFrameAvailable(frameResult: AcuantiOSSDKV11.FrameResult, points: Swift.Array<CoreFoundation.CGPoint>?)
+}
+extension SnapliiSDK.SNDocumentCameraController : AcuantiOSSDKV11.AutoCaptureDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func getAutoCapture() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func setAutoCapture(autoCapture: Swift.Bool)
+}
+extension SnapliiSDK.SNDocumentCameraController.SNCameraState : Swift.Equatable {}
+extension SnapliiSDK.SNDocumentCameraController.SNCameraState : Swift.Hashable {}
+extension SnapliiSDK.SNDocumentCameraController.SNCameraState : Swift.RawRepresentable {}
