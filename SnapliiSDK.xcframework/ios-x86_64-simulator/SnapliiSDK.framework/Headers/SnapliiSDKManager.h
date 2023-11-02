@@ -83,6 +83,7 @@ typedef void (^HasSnapliiCreditCallback)(BOOL success, NSString * _Nullable code
 
 //支付
 - (void)payment:(NSString *)orderStr
+    showLoading:(BOOL)showLoading
  viewController:(UIViewController *)viewController
         success:(PaySuccessCallback)success
         failure:(PayFailureCallback)failure

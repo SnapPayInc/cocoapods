@@ -35,7 +35,7 @@
 "DocumentNotPassed" = "Sorry, the document you uploaded may not have passed the review due to reasons such as the lack of clarity of the photograph. Please take try again.\n\nIn order to improve the success rate, you can also try to use another document to apply.";
 "AppliedTooManyTimes" = "Sorry, you have applied too many times today. We suggest you try again another day.";
 "UnderReview" = "Your application is still under review, and we will deal with it as soon as possible. Please keep patient! We will send you an email after approval and please keep an eye on it.\n\nIf you have any questions, please contact Snaplii customer service.";
-"LearnMoreAboutYou" = "We’d like to learn more about you before we can complete the onboarding process, to protect your future payment. ";
+"LearnMoreAboutYou" = "We want to know more about you. Your personal information will be extracted from your photo ID.\n\nStep 1: Take photos of the two sides of your valid driver’s licence.\n\nStep 2: Take a selfie";
 "YouCanDownload" = "You can download Snaplii App to activate Snaplii Credit and then come back to pay.";
 "Service email" = "Service email";
 "Compose" = "Compose";
