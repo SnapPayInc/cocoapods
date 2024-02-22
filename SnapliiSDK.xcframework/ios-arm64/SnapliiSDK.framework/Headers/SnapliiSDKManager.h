@@ -34,9 +34,6 @@ typedef Callback PayFailureCallback;
 typedef VoidCallback LoginSuccessCallback;
 typedef VoidCallback LoginCancelCallback;
 
-typedef ResultCallback HasSnapliiCreditCallback;
-
-
 typedef void (^CreditInfoCallback)(SnapliiCreditInfo * _Nullable creditInfo, NSString * _Nullable message);
 
 typedef NSString *SnapliiApplyStatus NS_STRING_ENUM;
@@ -83,6 +80,8 @@ FOUNDATION_EXPORT SnapliiApplyStatus const SnapliiApplyStatusNotApplicable;
 //注册开通信用付
 - (void)applySnapliiCredit:(UIViewController *)viewController
                      token:(nullable NSString *)campaignToken
+                    mobile:(NSString *)mobile
+                     email:(NSString *)email
                 completion:(ApplyCompletionCallback)completion
                     cancel:(ApplyCancelCallback)cancel;
 
