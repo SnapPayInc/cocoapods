@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/SnapliiSDK-Swift.h</key>
 		<data>
-		5qtGU7YqO/8ZOvdSgte3zVZbrEk=
+		pzlJNJPzIxTbcHHCIg+9/poFxtg=
 		</data>
 		<key>Headers/SnapliiSDK.h</key>
 		<data>
@@ -30,35 +30,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PVs7dads2XS/rRlRqjLV+fnkZq4=
+		NBb91IPN0u93hESiF7Inc0r6uWI=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		8jj7I9pOPq+hpWQtjInzoPD69gQ=
+		piTQP9VThS+Nrr97dpmCfBMKYdY=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PbfCJdmi8BM06AUNFsU9DDDsQT8=
+		eMzRV+cb6HLsJrmOYpQmU4gYo0g=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		p5m7on24y59nlo1uRuQiOiFRaWY=
+		FxfhsCxdp5LXDgGcXLP6q6dZyJU=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dWmchkE/J4zooRsYqHCEnlJrM7c=
+		9uxybXTjGOBjQTinGnSmATZxsUU=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		p5m7on24y59nlo1uRuQiOiFRaWY=
+		FxfhsCxdp5LXDgGcXLP6q6dZyJU=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QHTjZtupgJLhxBCw5Gkn+DjJtro=
+		tdfTJDeg+xAZQaRdiDO4/+4SmO8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		a2CQFFn4sBLx6OBYxbKPcKTyTTs=
+		N+23dnIcXzqq90vONRryxWi1iNU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -100,11 +100,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5qtGU7YqO/8ZOvdSgte3zVZbrEk=
+			pzlJNJPzIxTbcHHCIg+9/poFxtg=
 			</data>
 			<key>hash2</key>
 			<data>
-			niTsPgy2Y/Z8iy5uyEBYPvgNln7GPPkhlHzFw7znohA=
+			fQ6b4KOMs+BSdZ5RGi7moIaeT8+xSQibs2FGX/vgHQc=
 			</data>
 		</dict>
 		<key>Headers/SnapliiSDK.h</key>
@@ -133,77 +133,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8jj7I9pOPq+hpWQtjInzoPD69gQ=
+			piTQP9VThS+Nrr97dpmCfBMKYdY=
 			</data>
 			<key>hash2</key>
 			<data>
-			02KFK2swbA5gtcm/OGh7KjzhcC/WLSV12iIq0IQ4S8o=
+			ZiqibQ9A3KRQLjGhHhWPie7D9WwTQ4FIf4GXcMqK8/M=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PbfCJdmi8BM06AUNFsU9DDDsQT8=
+			eMzRV+cb6HLsJrmOYpQmU4gYo0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			BA+aORWh0aR9FRLNTOxR1Se4K2WIREBB5nfEsALlMEA=
+			sxfGbWmxWblKz0pTEHscGKLbu36lNclY0zlSD7GKNe4=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p5m7on24y59nlo1uRuQiOiFRaWY=
+			FxfhsCxdp5LXDgGcXLP6q6dZyJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+cvuGc6XD8btmf8qSAiOTB8y1LiIW8QZ/NDywMOxIA0=
+			xAnDxVDbpNHsdHGytk/8iNk2C4lvTU73xRs/eBNG3iE=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dWmchkE/J4zooRsYqHCEnlJrM7c=
+			9uxybXTjGOBjQTinGnSmATZxsUU=
 			</data>
 			<key>hash2</key>
 			<data>
-			yxCuE6HXniXG5obnMuhxWhA2l7BhUQQXUXIthJAN0B8=
+			QfAaxSuTKwqKvC/DpbZ8Vp7xSdoCAoGVEfXA8glBCcg=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p5m7on24y59nlo1uRuQiOiFRaWY=
+			FxfhsCxdp5LXDgGcXLP6q6dZyJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+cvuGc6XD8btmf8qSAiOTB8y1LiIW8QZ/NDywMOxIA0=
+			xAnDxVDbpNHsdHGytk/8iNk2C4lvTU73xRs/eBNG3iE=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QHTjZtupgJLhxBCw5Gkn+DjJtro=
+			tdfTJDeg+xAZQaRdiDO4/+4SmO8=
 			</data>
 			<key>hash2</key>
 			<data>
-			LIG6YgTJgloa8WjYrsRHG45JwsgGhYr6lqES4AYHnOE=
+			xFOXusNX0yi9c3lFEXGA9EDxQQT7ss8ML5IJm77VP6A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a2CQFFn4sBLx6OBYxbKPcKTyTTs=
+			N+23dnIcXzqq90vONRryxWi1iNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			YexqsZ6A1kLEW/PDFpszUJX7zOdgyoicscmTH8Nc/UQ=
+			udCXKZvQh4VZ+9Eq75d9dBggR5HkTG2/59CBTyF71do=
 			</data>
 		</dict>
 	</dict>

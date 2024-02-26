@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/SnapliiSDK-Swift.h</key>
 		<data>
-		anB8Rcw+r8Hx9diJ0NpXF2RWi+8=
+		kBaWFSxjdo8i78fJt7w8EmQHeKY=
 		</data>
 		<key>Headers/SnapliiSDK.h</key>
 		<data>
@@ -30,35 +30,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mO/4Rd6lfDqo9uOVg2/Odrz9DS0=
+		pBNkLGNJUYmMxcUihcWy8+XbDB4=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		zoFHLb7Hp8twupujTpCbY5Pou3E=
+		3wQyDWhly+w8EJOgwjO2jwnFP4Y=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		PbfCJdmi8BM06AUNFsU9DDDsQT8=
+		eMzRV+cb6HLsJrmOYpQmU4gYo0g=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		3zziR01v9F0kXKOUc5ukMuUbqso=
+		vLFc297q91zjWoR3GtqUmMDa6oo=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		uq2znlzeNQBiHaqTGtedULsmnyc=
+		Fg4cVrbleJOAohwcfLiGa5vQaLA=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		3zziR01v9F0kXKOUc5ukMuUbqso=
+		vLFc297q91zjWoR3GtqUmMDa6oo=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZeI0s8Xb7HpcSaaO+iTNu6AyacE=
+		8990Y2cViVvLVtz7i73KS9Dbqp0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		a2CQFFn4sBLx6OBYxbKPcKTyTTs=
+		N+23dnIcXzqq90vONRryxWi1iNU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -100,11 +100,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			anB8Rcw+r8Hx9diJ0NpXF2RWi+8=
+			kBaWFSxjdo8i78fJt7w8EmQHeKY=
 			</data>
 			<key>hash2</key>
 			<data>
-			T5cjvd5qo/FQ49iWvmfp48Mha7CNHS+qDelfjyKINH0=
+			lKZRYi/6Q5HbJMqwWCgpSuNxf+fgLcJoZzX93LuvsKU=
 			</data>
 		</dict>
 		<key>Headers/SnapliiSDK.h</key>
@@ -133,77 +133,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zoFHLb7Hp8twupujTpCbY5Pou3E=
+			3wQyDWhly+w8EJOgwjO2jwnFP4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			WpqGXv+yjDvboijssj3ipO31pkQWzL4i9P5XnlAKR0Q=
+			RyVq/F6JfoGCN+9LUBF5h7KMcIusnjqrQ8orRqWn8Cw=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PbfCJdmi8BM06AUNFsU9DDDsQT8=
+			eMzRV+cb6HLsJrmOYpQmU4gYo0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			BA+aORWh0aR9FRLNTOxR1Se4K2WIREBB5nfEsALlMEA=
+			sxfGbWmxWblKz0pTEHscGKLbu36lNclY0zlSD7GKNe4=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3zziR01v9F0kXKOUc5ukMuUbqso=
+			vLFc297q91zjWoR3GtqUmMDa6oo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ikwHk9oIiubW0HnvgjSIzlbun8SXyQqR8IoDWa2He24=
+			OJlhMwg22WSLw9WAD5exMGiBSR7xrxPvBmjB+sOEHCg=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uq2znlzeNQBiHaqTGtedULsmnyc=
+			Fg4cVrbleJOAohwcfLiGa5vQaLA=
 			</data>
 			<key>hash2</key>
 			<data>
-			QXYaz+kPOyaYDr+I1xqo4VxZMLVhZbQqZAyrovgWXXo=
+			iwouzfvQXiVTXA1UB4Avs4XkZLsVttg3afVQAQtqU7g=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3zziR01v9F0kXKOUc5ukMuUbqso=
+			vLFc297q91zjWoR3GtqUmMDa6oo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ikwHk9oIiubW0HnvgjSIzlbun8SXyQqR8IoDWa2He24=
+			OJlhMwg22WSLw9WAD5exMGiBSR7xrxPvBmjB+sOEHCg=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZeI0s8Xb7HpcSaaO+iTNu6AyacE=
+			8990Y2cViVvLVtz7i73KS9Dbqp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			PsJS26Q8f/CGHU3/5stxO3LjnqwoAZSxJMzp5aYirfw=
+			dUxDKCB1lzomT8+vJnxFnjU1bym/uNcFhAnT9jaLGU0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a2CQFFn4sBLx6OBYxbKPcKTyTTs=
+			N+23dnIcXzqq90vONRryxWi1iNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			YexqsZ6A1kLEW/PDFpszUJX7zOdgyoicscmTH8Nc/UQ=
+			udCXKZvQh4VZ+9Eq75d9dBggR5HkTG2/59CBTyF71do=
 			</data>
 		</dict>
 	</dict>

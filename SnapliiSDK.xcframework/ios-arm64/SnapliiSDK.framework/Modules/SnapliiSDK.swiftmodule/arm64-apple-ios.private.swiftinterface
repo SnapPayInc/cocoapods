@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SnapliiSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -14,11 +14,10 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 public typealias PassSelfie = (_ selfieImage: UIKit.UIImage) -> Swift.Void
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class FaceLivenessCameraController : UIKit.UIViewController, AcuantHGLiveness.AcuantHGLiveFaceCaptureDelegate {
   @objc @_Concurrency.MainActor(unsafe) public var passSelfie: SnapliiSDK.PassSelfie?
-  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any AcuantHGLiveness.HGLivenessDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: AcuantHGLiveness.HGLivenessDelegate?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
@@ -89,7 +88,7 @@ extension UIKit.UIWindow {
       get
     }
   }
-  @objc @_Concurrency.MainActor(unsafe) public class func getCameraController(delegate: any AcuantiOSSDKV11.CameraCaptureDelegate, cameraOptions: AcuantiOSSDKV11.CameraOptions) -> SnapliiSDK.SNDocumentCameraController
+  @objc @_Concurrency.MainActor(unsafe) public class func getCameraController(delegate: AcuantiOSSDKV11.CameraCaptureDelegate, cameraOptions: AcuantiOSSDKV11.CameraOptions) -> SnapliiSDK.SNDocumentCameraController
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
@@ -97,7 +96,7 @@ extension UIKit.UIWindow {
     @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) public func rotateImage(image: UIKit.UIImage) -> UIKit.UIImage
   @_Concurrency.MainActor(unsafe) public func isDocumentMoved(points: [CoreFoundation.CGPoint]) -> Swift.Bool
   @objc @_Concurrency.MainActor(unsafe) public var localizedMap: [Swift.String : Swift.String]?
