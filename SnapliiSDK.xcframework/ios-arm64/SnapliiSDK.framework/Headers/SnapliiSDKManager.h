@@ -34,6 +34,8 @@ typedef Callback PayFailureCallback;
 typedef VoidCallback LoginSuccessCallback;
 typedef VoidCallback LoginCancelCallback;
 
+typedef void (^HasSnapliiCreditCallback)(BOOL success, NSString * _Nullable code, NSString * _Nullable message);
+
 typedef void (^CreditInfoCallback)(SnapliiCreditInfo * _Nullable creditInfo, NSString * _Nullable message);
 
 typedef NSString *SnapliiApplyStatus NS_STRING_ENUM;
@@ -67,10 +69,19 @@ FOUNDATION_EXPORT SnapliiApplyStatus const SnapliiApplyStatusNotApplicable;
          callback:(nullable OTPCallback)callback
      initCallback:(ResultCallback)initCallback;
 
+- (void)initAppId:(NSString *)appId
+         language:(NSString *)language
+    personalToken:(NSString *)personalToken
+ customDataString:(nullable NSString *)customDataString
+         callback:(nullable OTPCallback)callback;
+
 - (void)setOTPCallback:(OTPCallback)callback;
 
 //配置语言
 - (void)setLanguage:(NSString *)language;
+
+//是否开通了Snaplii信用付
+- (void)hasSnapliiCredit:(HasSnapliiCreditCallback)completion;
 
 //查询 Snaplii Credit 信息
 - (void)queryCreditInfo:(nullable NSString *)mobile
@@ -100,6 +111,14 @@ FOUNDATION_EXPORT SnapliiApplyStatus const SnapliiApplyStatusNotApplicable;
 
 //支付
 - (void)payment:(NSString *)orderStr
+ viewController:(UIViewController *)viewController
+        success:(PaySuccessCallback)success
+        failure:(PayFailureCallback)failure
+         cancel:(PayCancelCallback)cancel;
+
+//支付
+- (void)payment:(NSString *)orderStr
+    showLoading:(BOOL)showLoading
  viewController:(UIViewController *)viewController
         success:(PaySuccessCallback)success
         failure:(PayFailureCallback)failure
