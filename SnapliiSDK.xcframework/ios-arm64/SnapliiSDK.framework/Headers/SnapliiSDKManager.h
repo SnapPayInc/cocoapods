@@ -24,7 +24,7 @@ typedef void (^Callback)(NSString *code, NSString *message);
 // 结果回调，包含成功和失败信息
 typedef void (^ResultCallback)(BOOL success, NSString * _Nullable code,  NSString * _Nullable message);
 
-typedef VoidCallback ApplyCompletionCallback;
+typedef void (^ApplyCompletionCallback)(NSString * _Nullable extraInfo);
 typedef VoidCallback ApplyCancelCallback;
 
 typedef VoidCallback PaySuccessCallback;
@@ -66,7 +66,6 @@ FOUNDATION_EXPORT SnapliiApplyStatus const SnapliiApplyStatusNotApplicable;
          language:(NSString *)language
     personalToken:(NSString *)personalToken
  customDataString:(nullable NSString *)customDataString
-         callback:(nullable OTPCallback)callback
      initCallback:(ResultCallback)initCallback;
 
 - (void)initAppId:(NSString *)appId
@@ -123,6 +122,9 @@ FOUNDATION_EXPORT SnapliiApplyStatus const SnapliiApplyStatusNotApplicable;
         success:(PaySuccessCallback)success
         failure:(PayFailureCallback)failure
          cancel:(PayCancelCallback)cancel;
+
+// 打开信用付信息首页
+- (void)enterCreditHomePage:(UIViewController *)viewController;
 
 - (NSString *)getVersion;
 
