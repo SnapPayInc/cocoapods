@@ -19,9 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)viewWillFirstAppear:(BOOL)animated;
 - (void)viewDidFirstAppear:(BOOL)animated;
 
-@property (nonatomic, assign) BOOL keyboardManagerEnabled;
-@property (nonatomic, assign) CGFloat keyboardDistanceFromTextField;
-
 - (void)setupParameters:(NSDictionary<NSString *, id> *)parameters;
 
 @end

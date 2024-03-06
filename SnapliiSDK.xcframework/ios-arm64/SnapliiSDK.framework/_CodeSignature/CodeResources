@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/SNViewController.h</key>
 		<data>
-		srfCgLpj2xeEv5St3r01C1Vq6xQ=
+		fIvhpBwPP9Y7SxplY79nioZXn7A=
 		</data>
 		<key>Headers/SnapliiSDK-Swift.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/SnapliiSDKManager.h</key>
 		<data>
-		Zws51rIOap0OCGhtljF9oVH32kM=
+		zaqAJw5JPIZ2oxry5o9Ib6yO+Xo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8990Y2cViVvLVtz7i73KS9Dbqp0=
+		KvbGrWzXNDYqbGcvkE0U2zufxyU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,11 +89,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			srfCgLpj2xeEv5St3r01C1Vq6xQ=
+			fIvhpBwPP9Y7SxplY79nioZXn7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			r0CnHyCN2CdM+vG+ZJLpWl4eRalk+Ww/q1Z0Y075GV4=
+			hvUz9uB1qDvOBjzMByB9a7jULNUlWq3wQL1MxP9Ermo=
 			</data>
 		</dict>
 		<key>Headers/SnapliiSDK-Swift.h</key>
@@ -122,11 +122,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zws51rIOap0OCGhtljF9oVH32kM=
+			zaqAJw5JPIZ2oxry5o9Ib6yO+Xo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8wNjCDVKqNDqMGDV1141xRWcqwfB7Li4OJOEYKw8ibc=
+			NsAWC7W3XFxEZYSVbguacrXvh+nMdhgAsdhq74Q/vFk=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8990Y2cViVvLVtz7i73KS9Dbqp0=
+			KvbGrWzXNDYqbGcvkE0U2zufxyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			dUxDKCB1lzomT8+vJnxFnjU1bym/uNcFhAnT9jaLGU0=
+			AP3a5WXFnboRtwHIiUWcPcr9blBKjTUsvmbwmpc6csk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
