@@ -98,7 +98,7 @@ FOUNDATION_EXPORT SnapliiApplyStatus const SnapliiApplyStatusNotApplicable;
 - (void)applySnapliiCredit:(NSString *)landingUrl
             viewController:(UIViewController *)viewController
                      token:(nullable NSString *)campaignToken
-                completion:(ApplyCompletionCallback)completion
+                completion:(VoidCallback)completion
                     cancel:(ApplyCancelCallback)cancel DEPRECATED_ATTRIBUTE;
 
 // 清除用户登陆信息
