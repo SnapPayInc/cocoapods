@@ -139,7 +139,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'YYCache', '~> 1.0.4'
   spec.dependency 'CocoaLumberjack/Swift', '~> 3.8.1'
   spec.dependency 'KSCrash', '~> 1.15.27'
-  spec.dependency 'IQKeyboardManager', '~> 6.5.6'
   spec.dependency "AcuantiOSSDKV11/AcuantCamera", '~> 11.5.8'
   spec.dependency "AcuantiOSSDKV11/AcuantFaceCapture", '~> 11.5.8'
   spec.dependency "AcuantiOSSDKV11/AcuantHGLiveness", '~> 11.5.8'
