@@ -24,7 +24,7 @@ typedef void (^Callback)(NSString *code, NSString *message);
 // 结果回调，包含成功和失败信息
 typedef void (^ResultCallback)(BOOL success, NSString * _Nullable code,  NSString * _Nullable message);
 
-typedef void (^ApplyCompletionCallback)(NSString * _Nullable extraInfo);
+typedef void (^ApplyCompletionCallback)(NSString *status, NSDictionary<NSString *, id> * _Nullable extraInfo);
 typedef VoidCallback ApplyCancelCallback;
 
 typedef VoidCallback PaySuccessCallback;
