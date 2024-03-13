@@ -80,7 +80,7 @@ FOUNDATION_EXPORT SnapliiApplyStatus const SnapliiApplyStatusNotApplicable;
 - (void)setLanguage:(NSString *)language;
 
 //是否开通了Snaplii信用付
-- (void)hasSnapliiCredit:(HasSnapliiCreditCallback)completion;
+- (void)hasSnapliiCredit:(HasSnapliiCreditCallback)completion DEPRECATED_ATTRIBUTE;
 
 //查询 Snaplii Credit 信息
 - (void)queryCreditInfo:(nullable NSString *)mobile
