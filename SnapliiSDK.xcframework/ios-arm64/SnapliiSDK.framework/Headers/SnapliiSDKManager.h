@@ -18,8 +18,8 @@ typedef void(^OTPCallback)(GetOTPBlock getOTPBlock);
 // 无参数回调 成功/取消 VoidCallback
 typedef void (^VoidCallback)(void);
 
-// 失败回调 Callback
-typedef void (^Callback)(NSString *code, NSString *message);
+// 失败回调 FailureCallback
+typedef void (^FailureCallback)(NSString *code, NSString *message);
 
 // 结果回调，包含成功和失败信息
 typedef void (^ResultCallback)(BOOL success, NSString * _Nullable code,  NSString * _Nullable message);
@@ -29,14 +29,11 @@ typedef VoidCallback ApplyCancelCallback;
 
 typedef VoidCallback PaySuccessCallback;
 typedef VoidCallback PayCancelCallback;
-typedef Callback PayFailureCallback;
-
-typedef VoidCallback LoginSuccessCallback;
-typedef VoidCallback LoginCancelCallback;
+typedef FailureCallback PayFailureCallback;
 
 typedef void (^HasSnapliiCreditCallback)(BOOL success, NSString * _Nullable code, NSString * _Nullable message);
 
-typedef void (^CreditInfoCallback)(SnapliiCreditInfo * _Nullable creditInfo, NSString * _Nullable message);
+typedef void (^CreditInfoCallback)(SnapliiCreditInfo * _Nullable creditInfo, NSString * _Nullable errorCode, NSString * _Nullable message);
 
 typedef NSString *SnapliiApplyStatus NS_STRING_ENUM;
 
@@ -93,8 +90,10 @@ FOUNDATION_EXPORT SnapliiApplyStatus const SnapliiApplyStatusNotApplicable;
                     mobile:(NSString *)mobile
                      email:(NSString *)email
                 completion:(ApplyCompletionCallback)completion
+                   failure:(FailureCallback)failure
                     cancel:(ApplyCancelCallback)cancel;
 
+// 已废弃接口
 - (void)applySnapliiCredit:(NSString *)landingUrl
             viewController:(UIViewController *)viewController
                      token:(nullable NSString *)campaignToken
@@ -131,6 +130,9 @@ FOUNDATION_EXPORT SnapliiApplyStatus const SnapliiApplyStatusNotApplicable;
 
 // 打开信用付信息首页
 - (void)enterCreditHomePage:(UIViewController *)viewController;
+
+- (void)enterCreditHomePage:(UIViewController *)viewController
+                    failure:(nullable FailureCallback)failure;
 
 - (NSString *)getVersion;
 
