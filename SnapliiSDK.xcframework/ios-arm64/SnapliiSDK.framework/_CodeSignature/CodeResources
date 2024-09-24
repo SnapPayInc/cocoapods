@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/SnapliiSDK-Swift.h</key>
 		<data>
-		kBaWFSxjdo8i78fJt7w8EmQHeKY=
+		0GAW3V85HrcNwoZp6qcIN1jV8GU=
 		</data>
 		<key>Headers/SnapliiSDK.h</key>
 		<data>
@@ -30,35 +30,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pBNkLGNJUYmMxcUihcWy8+XbDB4=
+		SOVnDTJ/UPL0rTuYPN9Gp6rqEzc=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		568TpAUrz2jJP8dNC8QWOxMGHhk=
+		CKRSQdnB0MxulZ0I8gQKN1kmy0w=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		eMzRV+cb6HLsJrmOYpQmU4gYo0g=
+		fzrPTUfrRsgaoIBV+PFY3HgQzq8=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		vLFc297q91zjWoR3GtqUmMDa6oo=
+		UA3FNavWqe13aDBArKJqUm8is2w=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Fg4cVrbleJOAohwcfLiGa5vQaLA=
+		om7rpLWaXObX4SLkMoPGwvu0Vl4=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		vLFc297q91zjWoR3GtqUmMDa6oo=
+		UA3FNavWqe13aDBArKJqUm8is2w=
 		</data>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KvbGrWzXNDYqbGcvkE0U2zufxyU=
+		DSyAJMhEka1YfieWKVyDDhu4or0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		N+23dnIcXzqq90vONRryxWi1iNU=
+		a2CQFFn4sBLx6OBYxbKPcKTyTTs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -100,11 +100,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kBaWFSxjdo8i78fJt7w8EmQHeKY=
+			0GAW3V85HrcNwoZp6qcIN1jV8GU=
 			</data>
 			<key>hash2</key>
 			<data>
-			lKZRYi/6Q5HbJMqwWCgpSuNxf+fgLcJoZzX93LuvsKU=
+			+JnkAKAc8C4/KcUVPHrAn0V30NV/OXiG6LXMbcAwAwo=
 			</data>
 		</dict>
 		<key>Headers/SnapliiSDK.h</key>
@@ -133,77 +133,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			568TpAUrz2jJP8dNC8QWOxMGHhk=
+			CKRSQdnB0MxulZ0I8gQKN1kmy0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			526+/YyKVrAKasPC2w7zKqLJLigggiGTztmRHk7hG+4=
+			dT6ey3YLLQutF5JjK18WK1JouRzwNvaHiYyq6+KBbTY=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eMzRV+cb6HLsJrmOYpQmU4gYo0g=
+			fzrPTUfrRsgaoIBV+PFY3HgQzq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			sxfGbWmxWblKz0pTEHscGKLbu36lNclY0zlSD7GKNe4=
+			ZW/UkxXiLkTyYfOzM2fSDe2hn16YJhoHhg/R0RUeeUE=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vLFc297q91zjWoR3GtqUmMDa6oo=
+			UA3FNavWqe13aDBArKJqUm8is2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			OJlhMwg22WSLw9WAD5exMGiBSR7xrxPvBmjB+sOEHCg=
+			fsisGkqxiglUlKrncoDBS8sOQ1v6vJ++65FEYYd4QK8=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fg4cVrbleJOAohwcfLiGa5vQaLA=
+			om7rpLWaXObX4SLkMoPGwvu0Vl4=
 			</data>
 			<key>hash2</key>
 			<data>
-			iwouzfvQXiVTXA1UB4Avs4XkZLsVttg3afVQAQtqU7g=
+			uL6znrHtMHxpXSrm6bcgX3LNM8c85aUH5t/IPf1H3Jc=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vLFc297q91zjWoR3GtqUmMDa6oo=
+			UA3FNavWqe13aDBArKJqUm8is2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			OJlhMwg22WSLw9WAD5exMGiBSR7xrxPvBmjB+sOEHCg=
+			fsisGkqxiglUlKrncoDBS8sOQ1v6vJ++65FEYYd4QK8=
 			</data>
 		</dict>
 		<key>Modules/SnapliiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KvbGrWzXNDYqbGcvkE0U2zufxyU=
+			DSyAJMhEka1YfieWKVyDDhu4or0=
 			</data>
 			<key>hash2</key>
 			<data>
-			AP3a5WXFnboRtwHIiUWcPcr9blBKjTUsvmbwmpc6csk=
+			l0R4sv4GI4+qcX2hVi63gl67uwR/iudF5ZLKflHnB50=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N+23dnIcXzqq90vONRryxWi1iNU=
+			a2CQFFn4sBLx6OBYxbKPcKTyTTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			udCXKZvQh4VZ+9Eq75d9dBggR5HkTG2/59CBTyF71do=
+			YexqsZ6A1kLEW/PDFpszUJX7zOdgyoicscmTH8Nc/UQ=
 			</data>
 		</dict>
 	</dict>
